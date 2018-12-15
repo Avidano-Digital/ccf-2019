@@ -44,16 +44,19 @@ $gradients: true;
 @if($gradients){
 
   [class*="overlay-gradient-"]{
-    position: relative; 
+    @extend .position-relative;
+    overflow: hidden;
   
     &::before {
       content: "\00a0";
       @extend .position-absolute;
+      width:102%;
       @extend .h-100;
-      @extend .w-100;
-      left:0;
-      right: 0;
+      margin-left:-1%;
+      margin-right:-1%;
+      bottom: -1px;
     }
+
   }
 
   // Gradient Overlays
@@ -62,32 +65,29 @@ $gradients: true;
     @include linear-gradient();
   }
 
-  .overlay-gradient-x-white::before{
+  .overlay-gradient-y-black-tall::before{
     @include linear-gradient(
-      $direction: to left,
-      $first-color: white,
-      $second-color: white,
+      $direction: to bottom,
+      $first-color: black,
+      $second-color: black,
       $first-color-opacity: 0,
-      $second-color-opacity: 0.75,
-      $first-color-position: 0,
+      $second-color-opacity: 0.85,
+      $first-color-position: 25%,
       $second-color-position: 100%
     );
   }
 
-  // Gradient Backgrounds
-
-  .bg-gradient-x-theme{
+  .overlay-gradient-y-black-short::before{
     @include linear-gradient(
-      $direction: to right,
-      $first-color: red,
-      $second-color: green,
-      $first-color-opacity: 1,
-      $second-color-opacity: 1,
-      $first-color-position: 0%,
+      $direction: to bottom,
+      $first-color: black,
+      $second-color: black,
+      $first-color-opacity: 0,
+      $second-color-opacity: 0.85,
+      $first-color-position: 50%,
       $second-color-position: 100%
     );
   }
-
 } // end if
 
 ////////////////////////////////////////

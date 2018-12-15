@@ -18,7 +18,7 @@
     // ACF Theme Options
     ////////////////////////////////////////
 
-    // require_once( __DIR__ . '/lib/acf-theme-options.php' );
+    require_once( __DIR__ . '/lib/acf-theme-options.php' );
 
     ////////////////////////////////////////
     // ACF Custom WYSIWYG

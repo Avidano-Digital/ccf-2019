@@ -37,15 +37,15 @@
 
 @mixin linear-gradient(
   
-  $direction: to right,
+  $direction: to bottom,
 
-  $first-color: theme-color("dark"),
-  $second-color: theme-color("dark"),
+  $first-color: black,
+  $second-color: black,
 
   $first-color-opacity: 0,
-  $second-color-opacity: 1,
+  $second-color-opacity: 0.85,
 
-  $first-color-position: 0%,
+  $first-color-position: 50%,
   $second-color-position: 100%
 
 ){
