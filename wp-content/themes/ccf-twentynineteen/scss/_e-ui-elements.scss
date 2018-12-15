@@ -95,33 +95,48 @@ $gradients: true;
 ////////////////////////////////////////
 
 @mixin featured-panel-responsive-settings(){
-  [class*="overlay-gradient"]::before{ display: none; }
+  [class^="overlay-gradient-"]::before{ display: none; }
   .card-img-overlay{ position: relative; }
-  .text-shadow{ text-shadow: none; }
-  [class*="border"]{ border: none !important; }
-  [class*="shadow"]{ box-shadow: none !important; }
-  img.show-on-mobile{ @include opacity(1); }
+  img{ @include opacity(1); }
+
+  .bg-white{
+    h1, h2, h3, h4, p{ color: $body-color; }
+    h1, h2, h3, h4, p, a.link{ text-shadow: none; }
+    a.link{ color: $orange !important; }
+  }
+  .bg-info{
+    h1, h2, h3, h4, p, a.link, blockquote, div { text-shadow: none; }
+  }
+  
 }
 
 $featured-panel: true;
 
 @if($featured-panel){
 
-  // Fixed height parameters
-  
-  $bg-fixed-image-opacity: 0.2;
-  $bg-fixed-height: 300px;
-  
+  .featured-block, 
+  .featured-panel, 
+  .banner
+  {
+    .card-img,
+    .align-self-end, 
+    .align-self-center
+    { @extend .w-100; }
+  }
+
   .featured-panel{
 
-    > .card, 
-    .card-img{
-      @extend .border-0;
-      @extend .rounded-0;
+    .align-self-end{
+      > div{ 
+        max-width: $grid-bp-xl;
+        @extend .px-lg-2;
+      }
+    }
+
+    .bg-white{
+      h1, h2, h3, h4, p, a.link{ @extend .text-shadow; }
     }
     
-    .card-img-overlay{ @extend .px-0; }
-
     @each $breakpoint in map-keys($grid-breakpoints) {
       $next: breakpoint-next($breakpoint, $grid-breakpoints);
       $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
@@ -134,44 +149,36 @@ $featured-panel: true;
         }
       }
     }
+  }
 
-    &.bg-cover{
+  .featured-block{
 
-      @extend .position-relative;
-      @extend .d-flex;
-
-      height: $bg-fixed-height;
-
-      > div{
-        @extend .position-relative;
-        @extend .z-index-100;
-        @extend .align-self-center;
-      }
-
-      &::before{
-        content: "\00a0";
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        left:0;
-        right: 0;
-        z-index: auto;
-
-        @include opacity($bg-fixed-image-opacity);
-        @include apply-background-image;
-
-      }
-
-      // Add your own backround classes and append them to '.bg-fixed'
-
-      &.bridge{
-        &::before{
-          @include apply-background-image($image: 'bridge-lights');
-        }
-      }
-
+    .card-img-overlay{ 
+      @extend .p-0;
+      @extend .p-md-3;
     }
 
+    @include media-breakpoint-down(sm) {
+      margin-bottom: $border-width;
+    }
+  }
+
+  .banner{
+    overflow: hidden;
+
+    h1{ 
+      @extend .display-1;
+      line-height: 1;
+      font-size: 8rem;
+    }
+
+    .card-img-overlay{ @extend .p-0; }
+
+    .align-self-end{ @extend .opacity-70; }
+    
+    @include media-breakpoint-down(lg) {
+      h1{ display: none; }
+    }
   }
 
 } // end if
