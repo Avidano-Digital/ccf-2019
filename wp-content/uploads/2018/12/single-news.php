@@ -26,7 +26,22 @@ get_header(); ?>
 
                     </div>
 
-                    <?php get_template_part('template-parts/aside-global'); ?>
+                    <?php
+
+                    // global $blog_id;
+                    
+                    // $current_blog_details = get_blog_details( $blog_id );
+                    // $current_site = $current_blog_details->blogname; 
+                    
+                    // if ($current_site == 'Cheetah Conservation Fund'){
+                    //     get_template_part('template-parts/aside-global'); 
+                    // } else {
+                    //     get_template_part('template-parts/aside-affiliate'); 
+                    // }
+
+                        get_template_part('template-parts/aside-global'); 
+
+                    ?>
 
                 </div>
             </div>
@@ -37,7 +52,11 @@ get_header(); ?>
                 <header class="narrow mb-5">
 
                     <?php $postcat = get_the_category( $post->ID ); ?>
-                    <?php foreach ($postcat as $cat): if ($cat->parent != 0 ): ?>
+                    <?php foreach ($postcat as $cat): if ($cat->parent != 0):
+
+                    // get_category_link( $cat->term_id )
+                    
+                    ?>
 
                     <p class="mb-0"><a class="no-link-style text-body" href="#"><em><?php echo $cat->name ?></em></a></p>
                 

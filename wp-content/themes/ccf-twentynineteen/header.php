@@ -1,3 +1,11 @@
+<?php
+
+$url = $_SERVER["REQUEST_URI"];
+
+$inside_news = strpos($url, 'news');
+
+?>
+
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">

@@ -16884,6 +16884,13 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/wp-content/themes/ccf-twentynineteen/category.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/category.php",
+		"oF": 0
+		},
 	"/wp-content/themes/ccf-twentynineteen/css/theme.css": {
 		"aP": 1,
 		"bl": 0,
@@ -17154,6 +17161,13 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/lib/theme-support.php",
 		"oF": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/page-news.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/page-news.php",
+		"oF": 0
+		},
 	"/wp-content/themes/ccf-twentynineteen/screenshot.png": {
 		"ft": 32768,
 		"iS": 402479,
@@ -17308,11 +17322,25 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/content-ccf-global.php",
 		"oF": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/template-parts/content-posts.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/content-posts.php",
+		"oF": 0
+		},
 	"/wp-content/themes/ccf-twentynineteen/template-parts/content-single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/content-single.php",
+		"oF": 0
+		},
+	"/wp-content/themes/ccf-twentynineteen/template-parts/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/content.php",
 		"oF": 0
 		},
 	"/wp-content/themes/ccf-twentynineteen/template-parts/dr-laurie-awards-and-activities.php": {
@@ -18856,6 +18884,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped-1.jpg": {
+		"ft": 16384,
+		"iS": 395504,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped.jpg": {
 		"ft": 16384,
 		"iS": 395886,
@@ -18916,6 +18955,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-new-and-returning-staff.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-new-and-returning-staff_900x525_acf_cropped-1.jpg": {
+		"ft": 16384,
+		"iS": 243669,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-new-and-returning-staff_900x525_acf_cropped-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -19262,12 +19312,34 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped-1.jpg": {
+		"ft": 16384,
+		"iS": 97522,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped.jpg": {
 		"ft": 16384,
 		"iS": 97370,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-new-and-returning-staff_900x525_acf_cropped-1.jpg": {
+		"ft": 16384,
+		"iS": 74565,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-new-and-returning-staff_900x525_acf_cropped-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -19393,6 +19465,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/wp-content/uploads/2018/12/single-news.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/single-news.php",
+		"oF": 0
 		},
 	"/wp-content/uploads/2018/12/site-icon-320x320.png": {
 		"ft": 32768,

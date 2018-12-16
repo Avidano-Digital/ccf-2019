@@ -61,10 +61,10 @@
             <li><a href="#">CCF Videos</a></li>
         </ul>
     </li>
-    <li>
-        <a href="#" title="News">News</a>
+    <li> 
+        <a <?php if($inside_news !== false ) : ?> class="active" <?php endif; ?> href="/news" title="News">News</a>
         <ul class="sub">
-            <li><a href="#">CCF Blog</a></li>
+            <li><a href="/ccf-blog">CCF Blog</a></li>
             <li><a href="#">Press Releases</a></li>
             <li><a href="#">Press Kit</a></li>
         </ul>
