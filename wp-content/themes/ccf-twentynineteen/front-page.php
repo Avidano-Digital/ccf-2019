@@ -143,9 +143,9 @@
                 <div class="overlay-gradient-y-black">
 
                   <?php if( $image ): ?>
-                    <img class="card-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image_alt; ?>">
+                    <img class="card-img" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
                   <?php else : ?>
-                    <img class="card-img" src="https://via.placeholder.com/1500x750" alt="Placeholder">
+                    <img class="card-img" src="https://via.placeholder.com/500x2500" alt="Placeholder">
                   <?php endif; ?>
 
                 </div>
