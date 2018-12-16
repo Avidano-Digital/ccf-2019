@@ -16932,6 +16932,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/images/wp-icon-about.png": {
+		"ft": 32768,
+		"iS": 350,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/wp-icon-about.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/wp-content/themes/ccf-twentynineteen/include/mobile-menu.php": {
 		"cB": 0,
 		"ft": 8192,

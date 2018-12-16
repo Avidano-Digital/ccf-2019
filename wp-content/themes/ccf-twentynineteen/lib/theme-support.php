@@ -40,6 +40,38 @@
     ////////////////////////////////////////
 
 
+    add_action( 'init', __NAMESPACE__ . 'create_post_type' );
+
+    function create_post_type() {
+
+
+        register_post_type( 'About Us',
+            array(
+                'labels' => array(
+                'name' => __( 'About Us' ),
+                'singular_name' => __( 'About Us' )
+            ),
+
+            'public' => true,
+            'rewrite' => array( 'slug' => 'about-us'),
+            'menu_icon' => get_template_directory_uri() . '/images/wp-icon-about.png',
+            )
+        );
+        
+        register_post_type( 'Videos',
+            array(
+                'labels' => array(
+                'name' => __( 'Videos' ),
+                'singular_name' => __( 'Video' )
+            ),
+
+            'public' => true,
+            'rewrite' => array( 'slug' => 'videos'),
+            'menu_icon' => 'dashicons-video-alt3'
+            )
+        );
+    }
+
     ////////////////////////////////////////
     // Remove Dashboard Menu Items
     ////////////////////////////////////////
