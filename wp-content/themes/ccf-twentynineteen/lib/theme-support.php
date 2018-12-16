@@ -33,6 +33,38 @@
          
         add_filter( 'jpeg_quality', 'my_prefix_regenerate_thumbnail_quality');
 
+        // Custom Archive Titles
+
+        add_filter( 'get_the_archive_title', function ($title) {
+
+            if ( is_category() ) {
+        
+                    $title = single_cat_title( '', false );
+        
+                } elseif ( is_tag() ) {
+        
+                    $title = single_tag_title( '', false );
+        
+                } elseif ( is_author() ) {
+        
+                    $title = '<span class="vcard">' . get_the_author() . '</span>' ;
+        
+                }
+        
+            return $title;
+        
+        });
+
+
+
+
+
+
+
+
+
+
+
     } // theme_support
 
     ////////////////////////////////////////
@@ -93,8 +125,6 @@
         $labels->name_admin_bar = 'News';
         $labels->menu_position = '10';
     }
-
-
 
     ////////////////////////////////////////
     // Remove Dashboard Menu Items
