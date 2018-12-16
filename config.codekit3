@@ -16922,11 +16922,64 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/header.php",
 		"oF": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/images/ccf-conservation.jpg": {
+		"ft": 16384,
+		"iS": 6365,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/ccf-conservation.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/ccf-education.jpg": {
+		"ft": 16384,
+		"iS": 13270,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/ccf-education.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/themes/ccf-twentynineteen/images/ccf-kids-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/wp-content/themes/ccf-twentynineteen/images/ccf-kids-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/ccf-research.jpg": {
+		"ft": 16384,
+		"iS": 15405,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/ccf-research.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/cheetah-range-lg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/cheetah-range-lg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/cheetah-range-sm.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/cheetah-range-sm.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -16953,6 +17006,36 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/pattern-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/pattern-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/pattern-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/pattern-02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/pattern-03.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/pattern-03.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/wp-content/themes/ccf-twentynineteen/images/wp-icon-about.png": {
 		"ft": 32768,
@@ -18751,6 +18834,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-conserving-the-worlds-fastest-cat-320x180.jpg": {
+		"ft": 16384,
+		"iS": 17574,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-conserving-the-worlds-fastest-cat-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-conserving-the-worlds-fastest-cat.jpg": {
+		"ft": 16384,
+		"iS": 160520,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-conserving-the-worlds-fastest-cat.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 395886,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/cheetah-conservation-fund-events-320x213.jpg": {
 		"ft": 16384,
 		"iS": 18169,
@@ -18782,6 +18898,72 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-new-and-returning-staff-320x187.jpg": {
+		"ft": 16384,
+		"iS": 13351,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-new-and-returning-staff-320x187.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-new-and-returning-staff.jpg": {
+		"ft": 16384,
+		"iS": 90785,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-new-and-returning-staff.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-new-and-returning-staff_900x525_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 243669,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-new-and-returning-staff_900x525_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-facts-01.jpg": {
+		"ft": 16384,
+		"iS": 27792,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-facts-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-facts-02.jpg": {
+		"ft": 16384,
+		"iS": 16625,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-facts-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-facts-03.jpg": {
+		"ft": 16384,
+		"iS": 22021,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-facts-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1-320x213.jpg": {
 		"ft": 16384,
@@ -18833,6 +19015,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/citizen-scientists-needed.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/citizen-scientists-needed_1000x500_acf_cropped-1.jpg": {
+		"ft": 16384,
+		"iS": 502473,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/citizen-scientists-needed_1000x500_acf_cropped-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -18970,6 +19163,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-and-senay_1000x500_acf_cropped-1.jpg": {
+		"ft": 16384,
+		"iS": 418048,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-and-senay_1000x500_acf_cropped-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/dr-laurie-marker-and-senay_1000x500_acf_cropped.jpg": {
 		"ft": 16384,
 		"iS": 420516,
@@ -19058,12 +19262,45 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 97370,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-new-and-returning-staff_900x525_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 74565,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-new-and-returning-staff_900x525_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/preview_cheetah-mother-and-cubs-on-termite-mound-1_1000x500_acf_cropped.jpg": {
 		"ft": 16384,
 		"iS": 10926,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-mother-and-cubs-on-termite-mound-1_1000x500_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/preview_citizen-scientists-needed_1000x500_acf_cropped-1.jpg": {
+		"ft": 16384,
+		"iS": 14158,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_citizen-scientists-needed_1000x500_acf_cropped-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -19086,6 +19323,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/preview_conserving-the-worlds-fastest-cat_1500x750_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/preview_dr-laurie-marker-and-senay_1000x500_acf_cropped-1.jpg": {
+		"ft": 16384,
+		"iS": 15168,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_dr-laurie-marker-and-senay_1000x500_acf_cropped-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
