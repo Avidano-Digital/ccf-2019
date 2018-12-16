@@ -34,6 +34,29 @@
 }
 
 ////////////////////////////////////////
+// Custom Link
+////////////////////////////////////////
+
+$custom-link: true;
+
+@if($custom-link){
+
+  .link{
+    @extend .f-sans-serif;
+    @extend .font-weight-bold;
+
+    color: currentColor;
+
+    @include custom-underline;
+
+    @include hover-focus {
+      color: currentColor;
+    }
+  }
+
+} // end if
+
+////////////////////////////////////////
 // Gradient Classes
 ////////////////////////////////////////
 
@@ -95,6 +118,7 @@ $gradients: true;
 ////////////////////////////////////////
 
 @mixin featured-panel-responsive-settings(){
+
   [class^="overlay-gradient-"]::before{ display: none; }
   .card-img-overlay{ position: relative; }
   img{ @include opacity(1); }
@@ -102,8 +126,10 @@ $gradients: true;
   .bg-white{
     h1, h2, h3, h4, p{ color: $body-color; }
     h1, h2, h3, h4, p, a.link{ text-shadow: none; }
+
     a.link{ color: $orange !important; }
   }
+
   .bg-info{
     h1, h2, h3, h4, p, a.link, blockquote, div { text-shadow: none; }
   }
@@ -129,12 +155,13 @@ $featured-panel: true;
     .align-self-end{
       > div{ 
         max-width: $grid-bp-xl;
-        @extend .px-lg-2;
+        @extend .p-lg-2;
+      // @extend .py-;
       }
     }
 
     .bg-white{
-      h1, h2, h3, h4, p, a.link{ @extend .text-shadow; }
+      h1, h2, h3, h4, p, a.link{ @extend .text-shadow;  }
     }
     
     @each $breakpoint in map-keys($grid-breakpoints) {

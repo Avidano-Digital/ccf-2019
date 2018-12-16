@@ -56,6 +56,36 @@
 }
 
 ////////////////////////////////////////
+// Custom Underline
+////////////////////////////////////////
+
+@mixin custom-underline(
+  
+  $color: currentColor,
+
+  $opacity: 0.75,
+
+  $height: 0.125em,
+  $distance: 0.25em,
+
+  $direction: to right
+
+){
+  background-image: linear-gradient(
+    $direction, 
+    $color 0%, 
+    $color 100%
+  );
+
+  background-repeat: no-repeat;
+  background-size: 100% $height;
+  background-position: 0 100%;
+
+  padding-top: $distance;
+  padding-bottom: $distance;
+}
+
+////////////////////////////////////////
 // Background image
 ////////////////////////////////////////
 
