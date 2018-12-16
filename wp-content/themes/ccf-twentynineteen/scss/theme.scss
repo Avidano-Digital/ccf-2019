@@ -201,27 +201,21 @@ form[role="search"]{
 
 // // Link-list colors
 
-// .bg-dark .link-list,
-// .sub
-// {
-//   li > a{ @extend .text-white; }
+#aside-nav{
 
-//   li.current_page_item > a {
-//       @extend .text-primary;
-//       @extend .font-weight-bold;
-//   }
-// }
+  li > a{ @extend .text-white; }
 
-// .bg-dark .link-list{
-//   li > a{ 
-//     @extend .text-white; 
+  li.current_page_item > a {
+      @extend .text-primary;
+      @extend .font-weight-bold;
+  }
 
-//     &.active{ 
-//       @extend .text-primary;
-//       @extend .font-italic; 
-//     }
-//   }
-// }
+  a.active{ 
+    @extend .text-primary;
+    @extend .font-italic; 
+  }
+
+}
 
 ////////////////////////////////////////
 // Featured Panels and Blocks

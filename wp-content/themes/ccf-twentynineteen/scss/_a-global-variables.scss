@@ -124,33 +124,59 @@ $font-awesome: 'Font Awesome 5 Free';
 // Note: Instead of manipulation Bootstrap Default variables, 
 // we create our own opt-in font size variables
 
+// Font sizes
+// Note: Instead of manipulation Bootstrap Default variables, 
+// we create our own opt-in font size variables
+
 $fs-sm: 0.875rem;   // 14px
 $fs-md: 1rem;       // 16px
-$fs-rg: 1.167rem;   // 18.667px
+$fs-rg: 1.25rem;    // 18px
 $fs-lg: 1.5rem;     // 20px
-$fs-xl: 1.75rem;    // 28px
+$fs-xl: 2rem;       // 28px
+$fs-xxl: 2.5rem;    // 28px
 
-// Note: Font weight vars required for customizations below
+// Match font sizes
 
-$font-weight-light: 200;
+$font-size-sm:    $fs-sm;
+$font-size-base:  $fs-md; // 16px
+$font-size-lg:    $fs-rg;
+
+// Line Height Adjustments
+
+$line-height-sm: 1.75;
+
+// Font weights (required)
+
+$font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
+
+// Header Font Size
+
+$display1-size:   $font-size-base * 6;
+$display2-size:   $font-size-base * 5;
+$display3-size:   $font-size-base * 4;
+$display4-size:   $font-size-base * 3;
+
+$h1-font-size:    $font-size-base * 2.5;
+$h2-font-size:    $font-size-base * 2;
+$h3-font-size:    $font-size-base * 1.75;
+$h4-font-size:    $font-size-base * 1.5;
+$h5-font-size:    $font-size-base * 1.25;
+$h6-font-size:    $font-size-base * 1.125;
 
 // h1 - h6 font weight
 
 $headings-font-weight: $font-weight-bold;
 
-// .display-* selector font weight
-
-$display1-weight: $font-weight-bold;
-$display2-weight: $font-weight-bold;
-$display3-weight: $font-weight-bold;
-$display4-weight: $font-weight-bold;
-
-// Lead font style
+// Styles for .lead selector
 
 $lead-font-size: $fs-lg;
 $lead-font-weight: $font-weight-light;
+
+// Blockquote
+
+$blockquote-font-size: $fs-xl;
 
 ////////////////////////////////////////////////////////////////////////////////
 //

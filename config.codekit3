@@ -16932,6 +16932,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/images/donate-aside.jpg": {
+		"ft": 16384,
+		"iS": 171789,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/donate-aside.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/donate.jpg": {
+		"ft": 16384,
+		"iS": 209203,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/donate.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/themes/ccf-twentynineteen/images/wp-icon-about.png": {
 		"ft": 32768,
 		"iS": 350,
@@ -17150,6 +17172,13 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"/wp-content/themes/ccf-twentynineteen/single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/single.php",
+		"oF": 0
 		},
 	"/wp-content/themes/ccf-twentynineteen/style.css": {
 		"aP": 1,
@@ -18722,6 +18751,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-events-320x213.jpg": {
+		"ft": 16384,
+		"iS": 18169,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-events-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-events.jpg": {
+		"ft": 16384,
+		"iS": 293290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-events.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/cheetah-conservation-fund-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -19073,6 +19124,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/preview_update-from-somaliland–july-2018_900x525_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 104864,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_update-from-somaliland–july-2018_900x525_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/preview_volunteer-at-ccf_500x250_acf_cropped.jpg": {
 		"ft": 16384,
 		"iS": 13773,
@@ -19104,6 +19166,39 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/update-from-somaliland–july-2018-320x180.jpg": {
+		"ft": 16384,
+		"iS": 17257,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/update-from-somaliland–july-2018-320x180.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/update-from-somaliland–july-2018.jpg": {
+		"ft": 16384,
+		"iS": 163956,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/update-from-somaliland–july-2018.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/update-from-somaliland–july-2018_900x525_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 388185,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/update-from-somaliland–july-2018_900x525_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/uploads/2018/12/volunteer-at-ccf-320x213.jpg": {

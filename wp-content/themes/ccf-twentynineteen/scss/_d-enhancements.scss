@@ -96,11 +96,11 @@ img{ @extend .img-fluid; }
 
 $no-class: ':not([class])';
 
-article a#{$no-class}{
+// article a#{$no-class}{
 
-  text-decoration: underline;
+//   text-decoration: underline;
 
-}
+// }
 
 ////////////////////////////////////////
 // Sticky Top
