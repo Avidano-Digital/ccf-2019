@@ -73,6 +73,9 @@
             ),
 
             'public' => true,
+            'hierarchical' => true,
+            'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'page-attributes' ),
+            'show_in_rest' => true,
             'rewrite' => array( 'slug' => 'about-us'),
             'menu_icon' => get_template_directory_uri() . '/images/wp-icon-about.png',
             )

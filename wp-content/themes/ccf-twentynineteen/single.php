@@ -8,6 +8,7 @@ get_header(); ?>
 
 <main id="content">
 
+    <?php $test = get_post_type(); echo $test; ?>
     <?php if (have_posts()) : while ( have_posts() ) : the_post(); ?>
 
     <article class="container-fluid blog">
