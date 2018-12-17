@@ -73,7 +73,6 @@
             ),
 
             'public' => true,
-            'capability_type'    => 'post',
             'rewrite' => array( 'slug' => 'about-us'),
             'menu_icon' => get_template_directory_uri() . '/images/wp-icon-about.png',
             )
