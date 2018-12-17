@@ -111,6 +111,7 @@ $gradients: true;
       $second-color-position: 100%
     );
   }
+
 } // end if
 
 ////////////////////////////////////////
@@ -196,7 +197,8 @@ $featured-panel: true;
     h1{ 
       @extend .display-1;
       // line-height: 1;
-      // font-size: 8rem;
+      font-size: 8rem;
+      font-style: italic;
     }
 
     .card-img-overlay{ @extend .p-0; }

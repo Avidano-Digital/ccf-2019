@@ -15,13 +15,9 @@ get_header(); ?>
                 <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/images/hero/ccf-blog.jpg" alt="Card image">
             </div>
             <div class="card-img-overlay d-flex">
-                <div class="align-self-end container-fluid">
-                    <h1 class="text-right text-secondary text-uppercase">
-
-                        <em>
-
-                            <?php the_archive_title(); ?>
-                        </em>
+                <div class="align-self-end container-fluid py-2">
+                    <h1 class="text-right text-secondary">
+                        <?php the_archive_title(); ?>
                     </h1>
                 </div>
                 <!-- .align-self-center -->
@@ -29,6 +25,7 @@ get_header(); ?>
         </div>
 
     </section>
+    <!-- .banner -->
 
     <div class="container-fluid">
 
@@ -96,7 +93,6 @@ get_header(); ?>
                         </div>
                         <!-- .narrow -->
 
-
                     </div>
                     <!-- .container-fluid -->
 
@@ -105,35 +101,39 @@ get_header(); ?>
 
                 <?php if ( have_posts() ) : ?>
 
-                    <div class="container py-7">
+                    <div class="natural py-7">
 
-                    <?php while ( have_posts() ) : the_post(); ?>
+                    <?php while ( have_posts() ) : the_post();
+                    
+                    $categories = get_the_category();
+                    $category_first = $categories[0]->cat_name;
+                    
+                    ?>
 
-                        <div class="????????????????????">
 
-                            <div class="row align-items-center mb-5">
+                        <div class="row align-items-center mb-5">
 
-                                <div class="col-md-6">
-                                    <?php $featured_image = get_field('featured_image'); if( $featured_image ): ?>
-                                        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-                                            <img class="w-100" src="<?php echo $featured_image['image']; ?>" alt="<?php the_title(); ?>">
-                                        </a>
-                                    <?php endif; /* featured_image */ ?>
-                                </div>
-                                <!-- .col -->
-
-                                <div class="col-md-6">
-                                    <p class="fs-md fs-muted mb-0"><?php the_date(); ?></p>
-                                    <h2 class="font-weight-light"><?php the_title(); ?></h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti tempore quod!</p>
-                                    <a  class="link fs-md text-body"  href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">Full Article</a>
-                                </div>
-                                <!-- .col -->
-
+                            <div class="col-lg-6 mb-3 mb-lg-0">
+                                <?php $featured_image = get_field('featured_image'); if( $featured_image ): ?>
+                                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"> 
+                                        <img class="w-100" src="<?php echo $featured_image['image']; ?>" alt="<?php the_title(); ?>">
+                                    </a>
+                                <?php endif; /* featured_image */ ?>
                             </div>
+                            <!-- .col -->
+
+                            <div class="col-lg-6">
+                                <p class="f-sans-serif fs-md fs-muted mb-0">
+                                    <span><?php the_date(); ?></span> • <span><em><?php echo $category_first; ?></em></span>
+                                </p>
+                                <h2 class="font-weight-light"><?php the_title(); ?></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti tempore quod!</p>
+                                <a  class="link fs-md text-body"  href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">Full Article</a>
+                            </div>
+                            <!-- .col -->
 
                         </div>
-                        <!-- .col -->
+
 
                     <?php endwhile; /* have_posts */ ?>
 

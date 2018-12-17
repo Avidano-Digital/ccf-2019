@@ -306,7 +306,7 @@ $accessible-hover-focus: true;
 
 @if($accessible-hover-focus){
 
-  a, 
+  a:not(.link), 
   .btn, 
   .nav-link,
   .na-item, 
@@ -461,12 +461,23 @@ section > ul{
 ////////////////////////////////////////
 
 .narrow,
+.natural,
 .wide,
-.narrow
 { @extend .mx-auto; }
 
 .narrow{ max-width: $narrow-width; }
 .wide{ max-width: $wide-width; }
+
+.natural{
+  max-width: $narrow-width;
+
+  @include media-breakpoint-up(md) {
+    max-width: 90%;
+  }
+  @include media-breakpoint-up(xxxl) {
+    max-width: 80%;
+  }
+}
 
 ////////////////////////////////////////
 // Text Shadow
