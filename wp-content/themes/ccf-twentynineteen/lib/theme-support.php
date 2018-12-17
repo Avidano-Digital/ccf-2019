@@ -55,26 +55,15 @@
         
         });
 
-
-
-
-
-
-
-
-
-
-
     } // theme_support
 
     ////////////////////////////////////////
     // Custom Post Types
     ////////////////////////////////////////
 
-    add_action( 'init', __NAMESPACE__ . 'create_post_type' );
+    add_action( 'init', __NAMESPACE__ . '\create_post_types' );
 
-    function create_post_type() {
-
+    function create_post_types() {
 
         register_post_type( 'About Us',
             array(
@@ -84,6 +73,7 @@
             ),
 
             'public' => true,
+            'capability_type'    => 'post',
             'rewrite' => array( 'slug' => 'about-us'),
             'menu_icon' => get_template_directory_uri() . '/images/wp-icon-about.png',
             )

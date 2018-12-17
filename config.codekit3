@@ -17172,13 +17172,6 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/lib/theme-support.php",
 		"oF": 0
 		},
-	"/wp-content/themes/ccf-twentynineteen/page-news.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/ccf-twentynineteen/page-news.php",
-		"oF": 0
-		},
 	"/wp-content/themes/ccf-twentynineteen/screenshot.png": {
 		"ft": 32768,
 		"iS": 402479,
@@ -17280,6 +17273,13 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"/wp-content/themes/ccf-twentynineteen/single-about-us.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/single-about-us.php",
+		"oF": 0
 		},
 	"/wp-content/themes/ccf-twentynineteen/single.php": {
 		"cB": 0,

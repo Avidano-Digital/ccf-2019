@@ -1,13 +1,15 @@
 <?php
 
 /*
-Template Name: Post
+Template Name: News
 */
 
 get_header(); ?>
 
 <main id="content">
 
+
+    <?php get_post_type(); ?>
     <?php if (have_posts()) : while ( have_posts() ) : the_post(); ?>
 
     <article class="container-fluid blog">
