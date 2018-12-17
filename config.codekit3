@@ -16937,7 +16937,7 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/images/ccf-conservation.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/wp-content/themes/ccf-twentynineteen/images/ccf-education.jpg": {
@@ -16948,7 +16948,7 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/images/ccf-education.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/wp-content/themes/ccf-twentynineteen/images/ccf-kids-logo.svg": {
@@ -16969,7 +16969,7 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/images/ccf-research.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/wp-content/themes/ccf-twentynineteen/images/cheetah-range-lg.svg": {

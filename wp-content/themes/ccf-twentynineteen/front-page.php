@@ -404,49 +404,44 @@
                 <div class="narrow text-white mb-5 mb-xl-0">
 
                   <h3 class="h1 text-primary">Shrinking habitat</h3>
-                  <p class="mb-4">In the last 100 years, the world has lost 90% of the wild cheetah population. Today, one-third of wild
+                  <p class="mb-3">In the last 100 years, the world has lost 90% of the wild cheetah population. Today, one-third of wild
                     cheetahs live in southern Africa. CCF is working across Africa to save the species throughout its range.</p>
 
-                  <ul class="fa-bullets mb-5">
+                  <ul class="list-unstyled fs-md mb-5">
                     <li>
                       <span class="fas fa-circle fa-fw text-umber"></span>
-                      <span>Cheetah range pre-1900</span>
+                      <span class="mx-1">Cheetah range pre-1900</span>
                     <li>
                         <span class="fas fa-circle fa-fw text-primary"></span>
-                        <span>Cheetah range today</span>
+                        <span class="mx-1">Cheetah range today</span>
                     <li>
                       <span class="fas fa-star fa-fw text-white"></span>
-                      <span>CCF Headquarters, Namibia</span>
-                  </ul>
-                  
-                  <ul class="thumbnail-links d-xl-none">
-                    <li>
-                      <a class="text-primary bg-light d-block" href="#">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/ccf-research.jpg" alt="Placeholder">
-                        <span class="mx-2">Research</span> 
-                      </a>
-                    </li>
-                    <li>
-                      <a class="text-primary bg-light d-block" href="#">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/ccf-education.jpg" alt="Placeholder">
-                        <span class="mx-2">Education</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a class="text-primary bg-light d-block" href="#">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/ccf-conservation.jpg" alt="Placeholder">
-                        <span class="mx-2">Conservation</span>
-                      </a>
-                    </li>
+                      <span class="mx-1">CCF Headquarters, Namibia</span>
                   </ul>
 
-                  <div class="d-none d-xl-block">
+                  <div class="row matrix-border d-md-none">
+                    <div class="col-sm">
+                      <a href="#1" class="btn btn-block btn-primary d-md-none">Research</a>
+                    </div>
+                    <!-- .col -->
+                    <div class="col-sm">
+                      <a href="#1" class="btn btn-block btn-primary d-md-none">Education</a>
+                    </div>
+                    <!-- .col -->
+                    <div class="col-sm">
+                      <a href="#1" class="btn btn-block btn-primary d-md-none">Conservation</a>
+                    </div>
+                    <!-- .col -->
+                  </div>
+                  <!-- .row -->
+
+                  <div class="d-none d-md-block">
 
                     <ul class="link-list horizontal">
                       <li>
                         <a href="#" class="text-primary text-center">
                           <img class="rounded-circle mb-2" src="<?php echo get_template_directory_uri(); ?>/images/ccf-research.jpg" alt="Placeholder">
-                          <h5>Research</h5> 
+                          <h5>Research</h5>
                         </a>
                       </li>
                       <li>
@@ -457,14 +452,13 @@
                       </li>
                       <li>
                         <a href="#" class="text-primary text-center">
-                          <img class="rounded-circle mb-2" src="<?php echo get_template_directory_uri(); ?>/images/ccf-conservation.jpg" alt="Placeholder">
+                          <img class="rounded-circle mb-2" src="<?php echo get_template_directory_uri(); ?>/images/ccf-conservation.jpg"
+                            alt="Placeholder">
                           <h5>Conservation</h5>
                         </a>
                       </li>
                     </ul>
-
                   </div>
-
 
                 </div>
                 <!-- .narrow -->
