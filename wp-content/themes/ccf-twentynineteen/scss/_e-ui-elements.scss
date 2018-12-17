@@ -195,8 +195,8 @@ $featured-panel: true;
 
     h1{ 
       @extend .display-1;
-      line-height: 1;
-      font-size: 8rem;
+      // line-height: 1;
+      // font-size: 8rem;
     }
 
     .card-img-overlay{ @extend .p-0; }

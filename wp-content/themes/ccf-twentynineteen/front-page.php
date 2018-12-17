@@ -405,8 +405,7 @@
 
                   <h3 class="h1 text-primary">Shrinking habitat</h3>
                   <p class="mb-4">In the last 100 years, the world has lost 90% of the wild cheetah population. Today, one-third of wild
-                    cheetahs live in southern Africa. CCF is working in Namibia and across Africa to save the species throughout
-                    its range.</p>
+                    cheetahs live in southern Africa. CCF is working across Africa to save the species throughout its range.</p>
 
                   <ul class="fa-bullets mb-5">
                     <li>
