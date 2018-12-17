@@ -44,6 +44,7 @@ $custom-link: true;
   .link{
     @extend .f-sans-serif;
     @extend .font-weight-bold;
+    cursor: pointer;
 
     color: currentColor;
 
