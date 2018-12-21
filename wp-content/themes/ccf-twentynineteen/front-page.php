@@ -226,9 +226,11 @@
             <div class="col-md-auto">
               <h2 class="display-4">Latest News</h2>
             </div>
+            <!-- .col -->
             <div class="col-md-auto">
               <a class="link text-body" href="#">All News</a>
             </div>
+            <!-- .col -->
           </header>
           <!-- .row -->
 
