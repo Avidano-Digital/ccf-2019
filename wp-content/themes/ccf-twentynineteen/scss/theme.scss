@@ -53,15 +53,6 @@ p{ @extend .f-serif; }
 
 }
 
-#global-header{
-
-  #wrap-toggles button[data-toggle="collapse"]{
-    &[aria-expanded="true"]{
-      @extend .opacity-50;
-    }
-  }
-}
-
 #secondary-navigation{
   a { @extend .text-body; }
 }

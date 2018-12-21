@@ -1,173 +1,171 @@
-<?php if( have_rows('article_content') ):
+<?php if( have_rows('article_content') ): while ( have_rows('article_content') ) : the_row(); ?>
 
-    while ( have_rows('article_content') ) : the_row(); ?>
+    <?php if( get_row_layout() == 'section' ):  
 
-        <?php if( get_row_layout() == 'section' ):  
+    $id = get_sub_field('id');
 
-        $id = get_sub_field('id');
+    ?>
 
-        ?>
+    <section class="mb-7">
 
-        <section class="mb-7">
+        <?php if( have_rows('section_content') ): while( have_rows('section_content') ): the_row(); ?>
 
-            <?php if( have_rows('section_content') ): while( have_rows('section_content') ): the_row(); ?>
+        <?php if( get_row_layout() == 'text_block' ):
 
-            <?php if( get_row_layout() == 'text_block' ):
+            $wysiwyg = get_sub_field('wysiwyg'); ?>
 
-                $wysiwyg = get_sub_field('wysiwyg'); ?>
+            <div class="narrow mb-5">
+                <?php echo $wysiwyg; ?>
+            </div>
 
-                <div class="narrow mb-5">
-                    <?php echo $wysiwyg; ?>
-                </div>
+        <?php elseif( get_row_layout() == 'figure_block' ): 
 
-            <?php elseif( get_row_layout() == 'figure_block' ): 
+            $figure_inline_single = get_sub_field('figure_inline_single');
 
-                $figure_inline_single = get_sub_field('figure_inline_single');
-
-                $image = $figure_inline_single['image'];
-                $caption = $figure_inline_single['caption'];
-                
-                ?>
-
-                <div class="narrow mb-5">
-                    <figure class="figure my-0">
-                        <a href="<?php echo $image['url']; ?>" class="figure-img" title="A caption for the above image.">
-                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
-                            <span class="fas fa-search-plus"></span>
-                        </a>
-                        <figcaption class="figure-caption"><?php echo $caption; ?></figcaption>
-                    </figure>
-                </div>
-                <!-- .narrow -->
-
-            <?php elseif( get_row_layout() == 'two_figure_block' ): 
-
-                $figure_inline_single_a = get_sub_field('figure_inline_single_a');
-
-                $image_a = $figure_inline_single_a['image'];
-                $caption_a = $figure_inline_single_a['caption'];
-                
-                $figure_inline_single_b = get_sub_field('figure_inline_single_b');
-
-                $image_b = $figure_inline_single_b['image'];
-                $caption_b = $figure_inline_single_b['caption'];
-
-                ?>
-
-                <div class="narrow my-6">
-                
-                    <div class="row matrix-gutter">
-
-                        <div class="col-sm-6 mb-4 mb-sm-0">
-                            <figure class="figure my-0">
-                                <a href="<?php echo $image_a['url']; ?>" class="figure-img" title="A caption for the above image.">
-                                    <img class="w-100" src="<?php echo $image_a['url']; ?>" alt="<?php echo $image_a['alt'] ?>">
-                                    <span class="fas fa-search-plus"></span>
-                                </a>
-                                <figcaption class="figure-caption"><?php echo $caption_a; ?></figcaption>
-                            </figure>
-                        </div>
-                        <!-- .col -->
-
-                        <div class="col-sm-6">
-                            <figure class="figure my-0">
-                                <a href="<?php echo $image_b['url']; ?>" class="figure-img" title="A caption for the above image.">
-                                    <img class="w-100" src="<?php echo $image_b['url']; ?>" alt="<?php echo $image_b['alt'] ?>">
-                                    <span class="fas fa-search-plus"></span>
-                                </a>
-                                <figcaption class="figure-caption"><?php echo $caption_b; ?></figcaption>
-                            </figure>
-                        </div>
-                        <!-- .col -->
-
-                    </div>
-                    <!-- .row -->
-
-                </div>
-                <!-- .narrow -->
-
-            <?php elseif( get_row_layout() == 'gallery_carousel_block' ): 
-            
-                $images = get_sub_field('images');
-
-                $count_a = 0;
-                $count_b = 0;
+            $image = $figure_inline_single['image'];
+            $caption = $figure_inline_single['caption'];
             
             ?>
 
-            <?php if( $images ): ?>
+            <div class="narrow mb-5">
+                <figure class="figure my-0">
+                    <a href="<?php echo $image['url']; ?>" class="figure-img" title="A caption for the above image.">
+                        <img classs="figure-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+                        <span class="fas fa-search-plus"></span>
+                    </a>
+                    <figcaption class="figure-caption"><?php echo $caption; ?></figcaption>
+                </figure>
+            </div>
+            <!-- .narrow -->
 
-                <div class="offset-gutter-x carousel slide my-7" 
-                    data-ride="carousel" 
-                    data-keyboard="true"
-                    data-interval="false" 
-                    id="carousel-gallery"
-                    dir="ltr">
+        <?php elseif( get_row_layout() == 'two_figure_block' ): 
 
-                    <div class="carousel-inner">
+            $figure_inline_single_a = get_sub_field('figure_inline_single_a');
 
-                    <?php foreach( $images as $image ): ?>
+            $image_a = $figure_inline_single_a['image'];
+            $caption_a = $figure_inline_single_a['caption'];
+            
+            $figure_inline_single_b = get_sub_field('figure_inline_single_b');
 
-                        <div class="carousel-item <?php if($count_a == 0){ echo 'active'; } ?>">
-                            <div class="overlay-gradient-y-black-shorty">
-                            <img class="w-100" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
-                            </div>
-                            <div class="carousel-caption bg-opacity-black-60">
-                                <p><?php echo $image['caption']; ?></p>
-                            </div>
-                        </div>
+            $image_b = $figure_inline_single_b['image'];
+            $caption_b = $figure_inline_single_b['caption'];
 
-                    <?php $count_a++; endforeach; ?>
+            ?>
 
-                    </div>
+            <div class="narrow my-6">
+            
+                <div class="row matrix-gutter">
 
-                    <div class="row no-gutters align-items-center justify-content-between py-2">
-
-                        <div class="col-auto text-left px-3">
-                            <a class="no-btn-style" href="#carousel-gallery" role="button" data-slide="prev">
-                                <span class="fas fa-chevron-left fa-lg" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
+                    <div class="col-sm-6 mb-4 mb-sm-0">
+                        <figure class="figure my-0">
+                            <a href="<?php echo $image_a['url']; ?>" class="figure-img" title="A caption for the above image.">
+                                <img class="w-100" src="<?php echo $image_a['url']; ?>" alt="<?php echo $image_a['alt'] ?>">
+                                <span class="fas fa-search-plus"></span>
                             </a>
-                        </div>
-                        <!-- .col -->
-
-                        <div class="col-auto">
-
-                            <ol class="carousel-indicators">
-
-                            <?php foreach( $images as $image ): ?>
-
-                                <li data-target="#carousel-gallery" class="<?php if($count_b == 0){ echo 'active'; } ?>" data-slide-to="<?php echo $count_b; ?>">
-                                    <span class="sr-only">Slide 1</span>
-                                </li>
-
-                            <?php $count_b++; endforeach; ?>
-
-                            </ol>
-                        </div>
-                        <!-- .col -->
-                        
-                        <div class="col-auto text-right px-3">
-                            <a class="no-btn-style" href="#carousel-gallery" role="button" data-slide="next">
-                                <span class="fas fa-chevron-right fa-lg" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                        <!-- .col -->
-
+                            <figcaption class="figure-caption"><?php echo $caption_a; ?></figcaption>
+                        </figure>
                     </div>
-                    <!-- .row -->
+                    <!-- .col -->
+
+                    <div class="col-sm-6">
+                        <figure class="figure my-0">
+                            <a href="<?php echo $image_b['url']; ?>" class="figure-img" title="A caption for the above image.">
+                                <img class="w-100" src="<?php echo $image_b['url']; ?>" alt="<?php echo $image_b['alt'] ?>">
+                                <span class="fas fa-search-plus"></span>
+                            </a>
+                            <figcaption class="figure-caption"><?php echo $caption_b; ?></figcaption>
+                        </figure>
+                    </div>
+                    <!-- .col -->
 
                 </div>
-                <!-- #carousel-gallery -->
+                <!-- .row -->
 
-            <?php endif; ?>
+            </div>
+            <!-- .narrow -->
 
-            <?php endif; /* text_block | figure_block | two_figure_block | gallery_slider */ ?>
+        <?php elseif( get_row_layout() == 'gallery_carousel_block' ): 
+        
+            $images = get_sub_field('images');
 
-            <?php endwhile; endif; /* flexible_content */ ?>
+            $count_a = 0;
+            $count_b = 0;
+        
+        ?>
 
-        </section>
+        <?php if( $images ): ?>
+
+            <div class="offset-gutter-x carousel slide my-7" 
+                data-ride="carousel" 
+                data-keyboard="true"
+                data-interval="false" 
+                id="carousel-gallery"
+                dir="ltr">
+
+                <div class="carousel-inner">
+
+                <?php foreach( $images as $image ): ?>
+
+                    <div class="carousel-item <?php if($count_a == 0){ echo 'active'; } ?>">
+                        <div class="overlay-gradient-y-black-shorty">
+                        <img class="w-100" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+                        </div>
+                        <div class="carousel-caption bg-opacity-black-60">
+                            <p><?php echo $image['caption']; ?></p>
+                        </div>
+                    </div>
+
+                <?php $count_a++; endforeach; ?>
+
+                </div>
+
+                <div class="row no-gutters align-items-center justify-content-between py-2">
+
+                    <div class="col-auto text-left px-3">
+                        <a class="no-btn-style" href="#carousel-gallery" role="button" data-slide="prev">
+                            <span class="fas fa-chevron-left fa-lg" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </div>
+                    <!-- .col -->
+
+                    <div class="col-auto">
+
+                        <ol class="carousel-indicators">
+
+                        <?php foreach( $images as $image ): ?>
+
+                            <li data-target="#carousel-gallery" class="<?php if($count_b == 0){ echo 'active'; } ?>" data-slide-to="<?php echo $count_b; ?>">
+                                <span class="sr-only">Slide 1</span>
+                            </li>
+
+                        <?php $count_b++; endforeach; ?>
+
+                        </ol>
+                    </div>
+                    <!-- .col -->
+                    
+                    <div class="col-auto text-right px-3">
+                        <a class="no-btn-style" href="#carousel-gallery" role="button" data-slide="next">
+                            <span class="fas fa-chevron-right fa-lg" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!-- .col -->
+
+                </div>
+                <!-- .row -->
+
+            </div>
+            <!-- #carousel-gallery -->
+
+        <?php endif; ?>
+
+        <?php endif; /* text_block | figure_block | two_figure_block | gallery_slider */ ?>
+
+        <?php endwhile; endif; /* flexible_content */ ?>
+
+    </section>
 
         <?php elseif( get_row_layout() == 'banner_with_quote' ):  
 

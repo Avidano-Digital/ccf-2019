@@ -243,16 +243,14 @@ get_header(); ?>
                     <!-- .row -->
 
                 </div>
-                <!-- .offset-gutter-x -->
+                <!-- .narrow -->
 
-
-                    <div class="narrow">
-                    
+                <div class="narrow">
+                
                     <h2>Latest Documents</h2> 
 
-                    </div>
-                
-                
+                </div>
+                                
                 <?php endif; ?>
 
                 </section>

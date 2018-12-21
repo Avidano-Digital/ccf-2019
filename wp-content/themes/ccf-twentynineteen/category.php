@@ -17,7 +17,7 @@ get_header(); ?>
             <div class="card-img-overlay d-flex">
                 <div class="align-self-end container-fluid py-2">
                     <h1 class="text-right text-secondary">
-                        <?php the_archive_title(); ?>
+                        News
                     </h1>
                 </div>
                 <!-- .align-self-center -->
@@ -43,7 +43,7 @@ get_header(); ?>
 
                     </div>
 
-                    <?php get_template_part('template-parts/aside-global'); ?>
+                    <?php include( 'include/aside-global.php' ); ?>
 
                 </div>
             </div>

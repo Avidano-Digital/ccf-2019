@@ -17055,6 +17055,36 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/images/share-email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/share-email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/share-facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/share-facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/share-twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/share-twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/wp-content/themes/ccf-twentynineteen/images/wp-icon-about.png": {
 		"ft": 32768,
 		"iS": 350,
@@ -17065,6 +17095,20 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/wp-content/themes/ccf-twentynineteen/include/aside-affiliate.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/include/aside-affiliate.php",
+		"oF": 0
+		},
+	"/wp-content/themes/ccf-twentynineteen/include/aside-global.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/include/aside-global.php",
+		"oF": 0
 		},
 	"/wp-content/themes/ccf-twentynineteen/include/mobile-menu.php": {
 		"cB": 0,
@@ -17305,25 +17349,11 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/article-footer.php",
 		"oF": 0
 		},
-	"/wp-content/themes/ccf-twentynineteen/template-parts/aside-affiliate.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/aside-affiliate.php",
-		"oF": 0
-		},
 	"/wp-content/themes/ccf-twentynineteen/template-parts/aside-donate.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/aside-donate.php",
-		"oF": 0
-		},
-	"/wp-content/themes/ccf-twentynineteen/template-parts/aside-global.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/aside-global.php",
 		"oF": 0
 		},
 	"/wp-content/themes/ccf-twentynineteen/template-parts/content-ccf-global.php": {
@@ -17396,1406 +17426,6 @@
 		"oAP": "/wp-content/themes/index.php",
 		"oF": 0
 		},
-	"/wp-content/themes/twentynineteen/404.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/404.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/archive.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/archive.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/classes/class-twentynineteen-svg-icons.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/classes/class-twentynineteen-svg-icons.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/classes/class-twentynineteen-walker-comment.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/comments.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/comments.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/fonts/NonBreakingSpaceOverride.woff2",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/footer.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/footer.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/functions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/functions.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/header.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/header.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/image.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/image.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/inc/back-compat.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/inc/back-compat.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/inc/color-patterns.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/inc/color-patterns.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/inc/customizer.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/inc/customizer.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/inc/icon-functions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/inc/icon-functions.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/inc/template-functions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/inc/template-functions.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/inc/template-tags.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/inc/template-tags.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/index.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/js/customize-controls.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/js/customize-controls-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentynineteen/js/customize-preview.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/js/customize-preview-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentynineteen/js/priority-menu.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/js/priority-menu-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentynineteen/js/skip-link-focus-fix.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/js/skip-link-focus-fix-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentynineteen/js/touch-keyboard-navigation.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/js/touch-keyboard-navigation-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentynineteen/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/package-lock-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/wp-content/themes/twentynineteen/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/wp-content/themes/twentynineteen/page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/page.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/postcss.config.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/postcss.config-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentynineteen/print.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/print-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentynineteen/print.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/print.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/readme.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/readme.txt",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/sass/_normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/_normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/blocks/_blocks.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/blocks/_blocks.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/elements/_elements.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/elements/_elements.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/elements/_lists.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/elements/_lists.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/elements/_tables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/elements/_tables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/forms/_buttons.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/forms/_buttons.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/forms/_fields.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/forms/_fields.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/forms/_forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/forms/_forms.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/layout/_layout.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/layout/_layout.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/media/_captions.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/media/_captions.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/media/_galleries.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/media/_galleries.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/media/_media.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/media/_media.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/mixins/_mixins-master.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/mixins/_mixins-master.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/mixins/_utilities.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/mixins/_utilities.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/modules/_accessibility.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/modules/_accessibility.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/modules/_alignments.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/modules/_alignments.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/modules/_clearings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/modules/_clearings.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/navigation/_links.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/navigation/_links.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/navigation/_menu-footer-navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/navigation/_menu-footer-navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/navigation/_menu-main-navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/navigation/_menu-main-navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/navigation/_menu-social-navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/navigation/_menu-social-navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/navigation/_navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/navigation/_navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/navigation/_next-previous.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/navigation/_next-previous.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/site/_site.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/site/_site.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/site/footer/_site-footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/site/footer/_site-footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/site/header/_site-featured-image.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/site/header/_site-featured-image.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/site/header/_site-header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/site/header/_site-header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/site/primary/_archives.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/site/primary/_archives.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/site/primary/_comments.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/site/primary/_comments.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/site/primary/_posts-and-pages.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/site/primary/_posts-and-pages.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/site/secondary/_widgets.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/site/secondary/_widgets.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/typography/_copy.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/typography/_copy.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/typography/_headings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/typography/_headings.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/typography/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/typography/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/variables-site/_colors.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/variables-site/_colors.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/variables-site/_columns.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/variables-site/_columns.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/variables-site/_fonts.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/variables-site/_fonts.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/variables-site/_structure.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/variables-site/_structure.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/variables-site/_transitions.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/variables-site/_transitions.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/sass/variables-site/_variables-site.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/wp-content/themes/twentynineteen/sass/variables-site/_variables-site.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/screenshot.png": {
-		"ft": 32768,
-		"iS": 175535,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/screenshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/wp-content/themes/twentynineteen/search.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/search.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/single.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/single.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/style-editor-customizer.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/style-editor-customizer-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentynineteen/style-editor-customizer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/style-editor-customizer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/style-editor.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/style-editor-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentynineteen/style-editor.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/style-editor.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/style-rtl.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/style-rtl-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentynineteen/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentynineteen/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/template-parts/content/content-excerpt.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/template-parts/content/content-none.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/template-parts/content/content-none.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/template-parts/content/content-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/template-parts/content/content-page.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/template-parts/content/content-single.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/template-parts/content/content-single.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/template-parts/content/content.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/template-parts/content/content.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/template-parts/footer/footer-widgets.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/template-parts/footer/footer-widgets.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/template-parts/header/entry-header.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/template-parts/header/entry-header.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/template-parts/header/site-branding.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/template-parts/header/site-branding.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/template-parts/post/author-bio.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/template-parts/post/author-bio.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentynineteen/template-parts/post/discussion-meta.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentynineteen/template-parts/post/discussion-meta.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/404.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/404.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/archive.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/archive.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/assets/css/blocks.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/css/blocks-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentyseventeen/assets/css/colors-dark.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/css/colors-dark-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentyseventeen/assets/css/editor-blocks.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/css/editor-blocks-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentyseventeen/assets/css/editor-style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/css/editor-style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentyseventeen/assets/css/ie8.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/css/ie8-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentyseventeen/assets/css/ie9.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/css/ie9-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentyseventeen/assets/images/coffee.jpg": {
-		"ft": 16384,
-		"iS": 117713,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/images/coffee.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/wp-content/themes/twentyseventeen/assets/images/espresso.jpg": {
-		"ft": 16384,
-		"iS": 93540,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/images/espresso.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/wp-content/themes/twentyseventeen/assets/images/header.jpg": {
-		"ft": 16384,
-		"iS": 114854,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/images/header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/wp-content/themes/twentyseventeen/assets/images/sandwich.jpg": {
-		"ft": 16384,
-		"iS": 171858,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/images/sandwich.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/wp-content/themes/twentyseventeen/assets/js/customize-controls.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/js/customize-controls-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentyseventeen/assets/js/customize-preview.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/js/customize-preview-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentyseventeen/assets/js/global.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/js/global-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentyseventeen/assets/js/html5.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/js/html5-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentyseventeen/assets/js/navigation.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/js/navigation-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/twentyseventeen/comments.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/comments.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/footer.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/footer.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/front-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/front-page.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/functions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/functions.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/header.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/header.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/inc/back-compat.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/inc/back-compat.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/inc/color-patterns.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/inc/color-patterns.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/inc/custom-header.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/inc/custom-header.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/inc/customizer.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/inc/customizer.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/inc/icon-functions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/inc/icon-functions.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/inc/template-functions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/inc/template-functions.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/inc/template-tags.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/inc/template-tags.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/index.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/page.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/README.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/README.txt",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/rtl.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/rtl-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentyseventeen/screenshot.png": {
-		"ft": 32768,
-		"iS": 363833,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/screenshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/wp-content/themes/twentyseventeen/search.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/search.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/searchform.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/searchform.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/sidebar.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/sidebar.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/single.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/single.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/header/header-image.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/header/header-image.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/page/content-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/page/content-page.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/post/content-gallery.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/post/content-gallery.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/post/content-image.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/post/content-image.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/post/content-none.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/post/content-none.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/post/content-video.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/post/content-video.php",
-		"oF": 0
-		},
-	"/wp-content/themes/twentyseventeen/template-parts/post/content.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/themes/twentyseventeen/template-parts/post/content.php",
-		"oF": 0
-		},
 	"/wp-content/uploads/2018/12/008_SuziEszterhasPC-320x213.jpg": {
 		"ft": 16384,
 		"iS": 12412,
@@ -18862,12 +17492,56 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/12/cheeatah-conservation-events_500x250_acf_cropped-1.jpg": {
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-collared-cheetah-320x213.jpg": {
 		"ft": 16384,
-		"iS": 121858,
+		"iS": 18564,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/cheeatah-conservation-events_500x250_acf_cropped-1.jpg",
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-collared-cheetah-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-collared-cheetah.jpg": {
+		"ft": 16384,
+		"iS": 3610504,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-collared-cheetah.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-collared-cheetah_1500x500_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 602398,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-collared-cheetah_1500x500_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring-320x213.jpg": {
+		"ft": 16384,
+		"iS": 20410,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring.jpg": {
+		"ft": 16384,
+		"iS": 465030,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -18917,12 +17591,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/12/cheetah-conservation-fund-events-320x213.jpg": {
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-events-320x160.jpg": {
 		"ft": 16384,
-		"iS": 18169,
+		"iS": 14898,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-events-320x213.jpg",
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-events-320x160.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -18930,7 +17604,7 @@
 		},
 	"/wp-content/uploads/2018/12/cheetah-conservation-fund-events.jpg": {
 		"ft": 16384,
-		"iS": 293290,
+		"iS": 43927,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-events.jpg",
@@ -19059,34 +17733,23 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1-320x213.jpg": {
+	"/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1000x500-320x160.jpg": {
 		"ft": 16384,
-		"iS": 13590,
+		"iS": 11297,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1-320x213.jpg",
+		"oAP": "/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1000x500-320x160.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1.jpg": {
+	"/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1000x500.jpg": {
 		"ft": 16384,
-		"iS": 279191,
+		"iS": 118519,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1_1000x500_acf_cropped.jpg": {
-		"ft": 16384,
-		"iS": 359221,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1_1000x500_acf_cropped.jpg",
+		"oAP": "/wp-content/uploads/2018/12/cheetah-mother-and-cubs-on-termite-mound-1000x500.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -19136,34 +17799,23 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/12/conserving-the-worlds-fastest-cat-320x213.jpg": {
+	"/wp-content/uploads/2018/12/conserving-the-worlds-fastest-cat_1500x750-320x160.jpg": {
 		"ft": 16384,
-		"iS": 19357,
+		"iS": 16283,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/conserving-the-worlds-fastest-cat-320x213.jpg",
+		"oAP": "/wp-content/uploads/2018/12/conserving-the-worlds-fastest-cat_1500x750-320x160.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/12/conserving-the-worlds-fastest-cat.jpg": {
+	"/wp-content/uploads/2018/12/conserving-the-worlds-fastest-cat_1500x750.jpg": {
 		"ft": 16384,
-		"iS": 451903,
+		"iS": 304194,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/conserving-the-worlds-fastest-cat.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/wp-content/uploads/2018/12/conserving-the-worlds-fastest-cat_1500x750_acf_cropped.jpg": {
-		"ft": 16384,
-		"iS": 738703,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/conserving-the-worlds-fastest-cat_1500x750_acf_cropped.jpg",
+		"oAP": "/wp-content/uploads/2018/12/conserving-the-worlds-fastest-cat_1500x750.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -19279,6 +17931,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-giving-a-rescued-cheetah-treat-from-spoon_500x250-320x160.jpg": {
+		"ft": 16384,
+		"iS": 13255,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-giving-a-rescued-cheetah-treat-from-spoon_500x250-320x160.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-giving-a-rescued-cheetah-treat-from-spoon_500x250.jpg": {
+		"ft": 16384,
+		"iS": 41206,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-giving-a-rescued-cheetah-treat-from-spoon_500x250.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/dr.-laurie-marker-giving-a-rescued-cheetah-treat-from-spoon-320x213.jpg": {
 		"ft": 16384,
 		"iS": 16048,
@@ -19345,12 +18019,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/12/preview_cheeatah-conservation-events_500x250_acf_cropped-1.jpg": {
+	"/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-collared-cheetah_1500x500_acf_cropped.jpg": {
 		"ft": 16384,
-		"iS": 13993,
+		"iS": 11397,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/preview_cheeatah-conservation-events_500x250_acf_cropped-1.jpg",
+		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-collared-cheetah_1500x500_acf_cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -19411,17 +18085,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/wp-content/uploads/2018/12/preview_cheetah-mother-and-cubs-on-termite-mound-1_1000x500_acf_cropped.jpg": {
-		"ft": 16384,
-		"iS": 10926,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-mother-and-cubs-on-termite-mound-1_1000x500_acf_cropped.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/wp-content/uploads/2018/12/preview_citizen-scientists-needed_1000x500_acf_cropped-1.jpg": {
 		"ft": 16384,
 		"iS": 14158,
@@ -19439,17 +18102,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/preview_citizen-scientists-needed_1000x500_acf_cropped.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/wp-content/uploads/2018/12/preview_conserving-the-worlds-fastest-cat_1500x750_acf_cropped.jpg": {
-		"ft": 16384,
-		"iS": 13848,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/preview_conserving-the-worlds-fastest-cat_1500x750_acf_cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -19531,13 +18183,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/wp-content/uploads/2018/12/single-news.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/single-news.php",
-		"oF": 0
 		},
 	"/wp-content/uploads/2018/12/site-icon-320x320.png": {
 		"ft": 32768,
@@ -20584,6 +19229,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/wp-includes/css/dist/block-library/editor-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/block-library/editor-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/wp-includes/css/dist/block-library/editor-rtl-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/block-library/editor-rtl-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/wp-includes/css/dist/block-library/editor-rtl.css": {
 		"aP": 1,
 		"bl": 0,
@@ -20591,6 +19256,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/wp-includes/css/dist/block-library/editor-rtl-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/wp-includes/css/dist/block-library/editor-rtl.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/block-library/editor-rtl.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -20611,6 +19286,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/wp-includes/css/dist/block-library/editor-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/wp-includes/css/dist/block-library/editor.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/block-library/editor.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -20744,6 +19429,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/wp-includes/css/dist/edit-post/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/edit-post/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/wp-includes/css/dist/edit-post/style-rtl-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/edit-post/style-rtl-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/wp-includes/css/dist/edit-post/style-rtl.css": {
 		"aP": 1,
 		"bl": 0,
@@ -20751,6 +19456,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/wp-includes/css/dist/edit-post/style-rtl-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/wp-includes/css/dist/edit-post/style-rtl.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/edit-post/style-rtl.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -20771,6 +19486,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/wp-includes/css/dist/edit-post/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/wp-includes/css/dist/edit-post/style.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/edit-post/style.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -20824,6 +19549,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/wp-includes/css/dist/editor/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/editor/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/wp-includes/css/dist/editor/style-rtl-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/editor/style-rtl-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/wp-includes/css/dist/editor/style-rtl.css": {
 		"aP": 1,
 		"bl": 0,
@@ -20831,6 +19576,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/wp-includes/css/dist/editor/style-rtl-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/wp-includes/css/dist/editor/style-rtl.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/editor/style-rtl.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -20851,6 +19606,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/wp-includes/css/dist/editor/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/wp-includes/css/dist/editor/style.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/wp-includes/css/dist/editor/style.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -22934,12 +21699,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/annotations-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/annotations-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/annotations.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/annotations-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/annotations.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/annotations.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23014,12 +21799,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/block-library-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/block-library-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/block-library.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/block-library-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/block-library.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/block-library.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23054,12 +21859,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/blocks-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/blocks-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/blocks.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/blocks-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/blocks.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/blocks.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23074,12 +21899,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/components-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/components-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/components.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/components-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/components.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/components.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23114,12 +21959,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/core-data-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/core-data-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/core-data.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/core-data-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/core-data.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/core-data.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23134,12 +21999,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/data-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/data-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/data.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/data-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/data.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/data.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23154,12 +22039,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/date-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/date-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/date.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/date-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/date.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/date.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23194,6 +22099,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/dom-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/dom-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/dom-ready.js": {
 		"ft": 64,
 		"ma": 0,
@@ -23224,12 +22139,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/dom.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/dom.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/dom.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/dom.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/edit-post-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/edit-post-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23244,12 +22179,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/edit-post.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/edit-post.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/edit-post.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/edit-post.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/editor-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/editor-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23264,6 +22219,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/editor.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/editor.min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/editor.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -23274,12 +22239,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/element-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/element-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/element.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/element-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/element.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/element.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23314,12 +22299,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/format-library-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/format-library-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/format-library.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/format-library-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/format-library.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/format-library.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23414,12 +22419,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/keycodes-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/keycodes-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/keycodes.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/keycodes-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/keycodes.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/keycodes.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23474,12 +22499,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/nux-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/nux-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/nux.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/nux-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/nux.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/nux.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23534,12 +22579,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/rich-text-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/rich-text-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/rich-text.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/rich-text-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/rich-text.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/rich-text.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -23794,12 +22859,32 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-includes/js/dist/viewport-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/viewport-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-includes/js/dist/viewport.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-includes/js/dist/viewport-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/wp-includes/js/dist/viewport.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-includes/js/dist/viewport.min-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

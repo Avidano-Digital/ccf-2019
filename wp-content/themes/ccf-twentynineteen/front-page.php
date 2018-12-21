@@ -20,10 +20,8 @@
 
       <?php
 
-      // Primary Feature Vars
       $primary_feature = get_field('primary_feature'); 
       $image = $primary_feature['image'];
-      $image_alt = $primary_feature['image_alt'];
       $headline = $primary_feature['headline'];
       $text = $primary_feature['text'];
       $link = $primary_feature['link'];
@@ -37,7 +35,7 @@
           <div class="overlay-gradient-y-black">
             
             <?php if( $image ): ?>
-              <img class="card-img" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
+              <img class="card-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
             <?php else : ?>
               <img class="card-img" src="https://via.placeholder.com/1500x750" alt="Placeholder">
             <?php endif; ?>
@@ -70,10 +68,8 @@
 
           <?php
 
-          // Secondary Feature Vars
           $secondary_feature = get_field('secondary_feature'); 
           $image = $secondary_feature['image'];
-          $image_alt = $secondary_feature['image_alt'];
           $headline = $secondary_feature['headline'];
           $text = $secondary_feature['text'];
           $link = $secondary_feature['link'];
@@ -86,8 +82,8 @@
 
               <div class="overlay-gradient-y-black">
 
-                <?php if( $image ): ?>
-                  <img class="card-img" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
+                <?php if ($image) : ?>
+                  <img class="card-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image_alt; ?>">
                 <?php else : ?>
                   <img class="card-img" src="https://via.placeholder.com/1000x500" alt="Placeholder">
                 <?php endif; ?>
@@ -143,9 +139,9 @@
                 <div class="overlay-gradient-y-black">
 
                   <?php if( $image ): ?>
-                    <img class="card-img" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
+                    <img class="card-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
                   <?php else : ?>
-                    <img class="card-img" src="https://via.placeholder.com/500x2500" alt="Placeholder">
+                    <img class="card-img" src="https://via.placeholder.com/1000x500" alt="Placeholder">
                   <?php endif; ?>
 
                 </div>
@@ -172,7 +168,6 @@
             <?php if( have_rows('tertiary_features') ) : while( have_rows('tertiary_features') ): the_row();     
 
             $image = get_sub_field('image');
-            $image_alt = get_sub_field['image_alt'];
             $link = get_sub_field('link');
 
             ?>
@@ -183,7 +178,7 @@
 
                 <?php if( $image ): ?>
                   <div class="overlay-gradient-y-black">
-                    <img class="card-img" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
+                    <img class="card-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
                   </div>
                 <?php else : ?>
                   <div class="overlay-gradient-y-black">
@@ -409,7 +404,7 @@
 
                   <ul class="list-unstyled fs-md mb-5">
                     <li>
-                      <span class="fas fa-circle fa-fw text-umber"></span>
+                      <span class="fas fa-circle fa-fw text-quaternary"></span>
                       <span class="mx-1">Cheetah range pre-1900</span>
                     <li>
                         <span class="fas fa-circle fa-fw text-primary"></span>
