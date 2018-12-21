@@ -242,42 +242,7 @@
       </section>
       <!-- #latest-news -->
 
-      <section class="container-fluid" id="videos">
-
-        <div class="wide px-lg-2">
-
-          <header class="row align-items-end justify-content-between mb-3">
-            <div class="col-md-auto">
-              <h3 class="display-4">Videos</h3>
-            </div>
-            <div class="col-md-auto">
-              <a class="link text-body" href="#">All Videos</a>
-            </div>
-          </header>
-
-          <div class="row matrix-border">
-
-            <div class="col-md-6">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ViEOxkiz5VI" frameborder="0" allowTransparency="true"
-                  allowfullscreen="true"></iframe>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aew2okRVGl8" frameborder="0" allowTransparency="true"
-                  allowfullscreen="true"></iframe>
-              </div>
-            </div>
-
-          </div>
-          <!-- .matrix-border -->
-
-        </div>
-        <!-- .wide -->
-
-      </section>
-      <!-- #videos -->
+      <?php get_template_part('template-parts/featured-video-group'); ?>
 
     </section>
 
