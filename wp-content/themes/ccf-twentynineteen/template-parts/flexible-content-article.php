@@ -1,3 +1,8 @@
+
+<section class="mb-7">
+
+
+
 <?php if( have_rows('article_content') ): while ( have_rows('article_content') ) : the_row(); ?>
 
     <?php if( get_row_layout() == 'text_block' ):
@@ -61,7 +66,6 @@
     $quote_text = $quote['text'];
     $quote_credit_name = $quote['credit_name'];
     $quote_credit_title = $quote['credit_title'];
-
 
     ?>
 
@@ -131,7 +135,6 @@
                         <!-- .align-self-center -->
                     </div>
                     <!-- .card-img-overlay -->
-
                 </div>
                 <!-- .card -->
 
@@ -151,6 +154,41 @@
     </div>
     <!-- .offset-gutter-x -->
 
+    <?php elseif( get_row_layout() == 'figure_block' ):  
+
+    $figure = get_sub_field('figure');
+    $enlarge = $figure['enlarge'];
+
+    $image = $figure['image'];
+    $caption = $figure['caption'];
+    
+    ?>
+
+    <div class="medium my-6">
+        <figure class="figure my-0">
+
+            <?php if( $enlarge ): ?>
+	
+                <a class="figure-img enlarge" href="<?php echo $image['url']; ?>" title="<?php echo $caption; ?>">
+                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+                    <span class="fas fa-search-plus"></span>
+                </a>
+                
+            <?php else : ?>
+
+            <img class="figure-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+            
+            <?php endif; ?>
+
+
+            <figcaption class="figure-caption"><?php echo $caption; ?></figcaption>
+        </figure>
+    </div>
+    <!-- .narrow -->
+
     <?php endif; /* text_block | video_block | banner_block */ ?>
 
 <?php endwhile; endif; /* article_content */ ?>
+
+
+</section>

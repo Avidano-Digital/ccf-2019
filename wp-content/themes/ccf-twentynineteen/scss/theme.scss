@@ -11,6 +11,7 @@
 @import "d-enhancements.scss";
 @import "e-ui-elements.scss";
 @import "f-dev-tools.scss";
+@import "g-magnific-popup.scss";
 
 ////////////////////////////////////////////////////////////////////////////////
 //
@@ -433,3 +434,18 @@ blockquote{
   }
 
 }
+
+
+////////////////////////////////////////
+// Figures
+////////////////////////////////////////
+
+figure{
+  @extend .my-0; 
+}
+
+.figure-img, 
+.figure-info 
+{ @extend .mb-1; }
+
+figcaption a { @extend .blended-link; }

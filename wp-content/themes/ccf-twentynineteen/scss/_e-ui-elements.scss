@@ -600,43 +600,43 @@ $carousel: true;
 // Gallery
 ////////////////////////////////////////
 
-// %enlarge{
+%enlarge{
 
-//   a{
-//     position: relative;
-//     display: block;
+  a.enlarge{
+    position: relative;
+    display: block;
 
-//     &:focus{
-//       > span{ @extend .bg-primary;}
-//     }
+    &:focus{
+      > span{ @extend .bg-primary;}
+    }
 
-//     > span{ 
-//       position: absolute;
-//       bottom: 0;
-//       right: 0;
+    > span{ 
+      position: absolute;
+      bottom: 0;
+      right: 0;
 
-//       color: white;
-//       @extend .p-2;
-//       @extend .m-2;
-//       @extend .rounded;
-//     }
-//   }
-// }
+      @extend .p-1;
+      @extend .m-1;
+      @extend .text-body;
+      @extend .bg-primary;
+    }
+  }
+}
 
-// $gallery: false;
+$gallery: false;
 
-// @if($gallery){
+@if($gallery){
 
-//   .gallery{
-//     a, 
-//     img
-//     { @extend .m-0; }
-//   }
+  .gallery{
+    a, 
+    img
+    { @extend .m-0; }
+  }
 
-//   .gallery, 
-//   figure
-//   { @extend %enlarge; }
+  .gallery, 
+  figure
+  { @extend %enlarge; }
 
-// } @else {
-//   figure{ @extend %enlarge; }
-// } // end if else
+} @else {
+  figure{ @extend %enlarge; }
+} // end if else

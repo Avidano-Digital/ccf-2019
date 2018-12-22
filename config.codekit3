@@ -17305,6 +17305,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/wp-content/themes/ccf-twentynineteen/scss/_g-magnific-popup.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/scss/_g-magnific-popup.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/wp-content/themes/ccf-twentynineteen/scss/theme.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -17731,6 +17744,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-new-and-returning-staff_900x525_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-scat-dogs-320x192.jpg": {
+		"ft": 16384,
+		"iS": 19287,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-scat-dogs-320x192.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-scat-dogs.jpg": {
+		"ft": 16384,
+		"iS": 318382,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-scat-dogs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
