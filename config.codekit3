@@ -17405,6 +17405,13 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/featured-video-group.php",
 		"oF": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/template-parts/flexible-content-article-OLD.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/flexible-content-article-OLD.php",
+		"oF": 0
+		},
 	"/wp-content/themes/ccf-twentynineteen/template-parts/flexible-content-article.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -17532,6 +17539,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring-1-320x213.jpg": {
+		"ft": 16384,
+		"iS": 20410,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring-1-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring-1.jpg": {
+		"ft": 16384,
+		"iS": 465030,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring-1_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 879744,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring-1_1200x800_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/cheetah-conservation-fund-collaring-320x213.jpg": {
 		"ft": 16384,
 		"iS": 20410,
@@ -17604,17 +17644,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-events-320x160.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/wp-content/uploads/2018/12/cheetah-conservation-fund-events.jpg": {
-		"ft": 16384,
-		"iS": 43927,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-events.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17960,6 +17989,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage-320x213.jpg": {
+		"ft": 16384,
+		"iS": 26157,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage.jpg": {
+		"ft": 16384,
+		"iS": 1465258,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 967915,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage_1200x800_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/dr.-laurie-marker-giving-a-rescued-cheetah-treat-from-spoon-320x213.jpg": {
 		"ft": 16384,
 		"iS": 16048,
@@ -18032,6 +18094,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-collared-cheetah_1500x500_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-collaring-1_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 20109,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-collaring-1_1200x800_acf_cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -18131,6 +18204,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/preview_dr-laurie-marker-and-senay_1000x500_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/preview_dr-laurie-marker-with-cheetah-vintage_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 25808,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_dr-laurie-marker-with-cheetah-vintage_1200x800_acf_cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

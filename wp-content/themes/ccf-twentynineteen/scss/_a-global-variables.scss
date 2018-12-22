@@ -89,6 +89,9 @@ $wide-width: $grid-bp-xxxl;     // 1600px
 $narrow-width: 60ch;            // 60 characters
 $narrow-width-ie: $grid-bp-md;  // 65 characters
 
+$medium-width: $narrow-width * 1.25; // Multiple of $narrow-width
+$medium-width-ie: $narrow-width-ie * 1.25; // Multiple of $narrow-width-ie
+
 ////////////////////////////////////////
 // Sizing Utilities
 ////////////////////////////////////////

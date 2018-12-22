@@ -457,27 +457,18 @@ section > ul{
 .bg-opacity-white-80{ @include background-opacity(white, 0.8); }
 
 ////////////////////////////////////////
-// Narrow and Wide Classes
+// Narrow, Meduim, and Wide Classes
 ////////////////////////////////////////
 
 .narrow,
-.natural,
 .wide,
+.narrow, 
+.medium
 { @extend .mx-auto; }
 
 .narrow{ max-width: $narrow-width; }
+.medium{ max-width: $medium-width; }
 .wide{ max-width: $wide-width; }
-
-.natural{
-  max-width: $narrow-width;
-
-  @include media-breakpoint-up(md) {
-    max-width: 90%;
-  }
-  @include media-breakpoint-up(xxxl) {
-    max-width: 80%;
-  }
-}
 
 ////////////////////////////////////////
 // Text Shadow
@@ -562,11 +553,13 @@ figcaption a { @extend .blended-link; }
 // IE 10 and 11 Fixes 
 ////////////////////////////////////////
 
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+
   // Fixes display flex bug 
   .card,
   .figure{ display: block !important; }
 
   // IE character count (ch) is inaccurate, so for IE we use pixel width instead 
   .narrow{ max-width: $narrow-width-ie; }
+  .medium{ max-width: $medium-width-ie; }
 }
