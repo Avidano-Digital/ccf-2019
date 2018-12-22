@@ -17148,6 +17148,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/js/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/js/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/wp-content/themes/ccf-twentynineteen/js/main.js": {
 		"ft": 64,
 		"ma": 0,
@@ -17174,16 +17184,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/wp-content/themes/ccf-twentynineteen/js/vendor/leaflet-providers-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/wp-content/themes/ccf-twentynineteen/js/vendor/magnific-popup-1.1.0.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/wp-content/themes/ccf-twentynineteen/js/vendor/magnific-popup-1.1.0.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

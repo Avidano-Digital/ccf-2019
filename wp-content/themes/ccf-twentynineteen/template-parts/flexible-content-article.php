@@ -169,7 +169,7 @@
 
             <?php if( $enlarge ): ?>
 	
-                <a class="figure-img enlarge" href="<?php echo $image['url']; ?>" title="<?php echo $caption; ?>">
+                <a class="figure-img enlarge" href="<?php echo $image['url']; ?>" title="<?php echo $caption; ?>" data-toggle="lightbox" data-footer="<?php echo $caption; ?>">
                     <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
                     <span class="fas fa-search-plus"></span>
                 </a>

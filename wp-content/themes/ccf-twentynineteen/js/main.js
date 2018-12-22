@@ -31,42 +31,41 @@ jQuery(document).ready(function ($) {
     });
 
     ////////////////////////////////////////
-    // Magnific Popups
+    // Lightbox
     ////////////////////////////////////////
+    
+    $('[data-toggle="lightbox"]').on('click', function(event) {
+        
+        event.preventDefault();
+        
+        var data_title = $(this).data('title');
 
-    var main = $('body');
+        function update_shit() {
 
-    var standardOptions = { 
-      closeOnContentClick: false,
-      preloader: true,
-      callbacks: {
-        open: function() {
-          $('html').addClass('popup-active');
-            main.css({'overflow-y': 'scroll'});
-        },
-        close: function() {
-          $('html').removeClass('popup-active');
-            main.css({'overflow-y': 'visible'});
-        },
-        ajaxContentAdded: function() { }
-      },
+            var target =  $('.ekko-lightbox');
+            var close_button = target.find('button[data-dismiss="modal"]');
+            var modal_header = target.find('.modal-header h4');
 
-    };
+            target.removeClass('fade in');
+            close_button.removeClass('close').addClass('ml-auto no-btn-style text-body');
+            close_button.html('<span class="far fa-window-close fa-lg"></span>');
 
-    $('a:has(span.fa-search-plus)').magnificPopup($.extend({}, standardOptions, {
-  
-      type: 'image',
-      overflowY: 'auto',
-      
-      image: {
-        verticalFit: true,
-      },
-      
-      gallery:{
-        enabled: true
-      }
-  
-    }));
+            if (data_title) {
+                // do something…
+                // console.warn( 'WHAAAAAAAAAAT??????????!!!!!!!!!!' );
+            } else {
+                modal_header.remove();
+                // console.warn( 'COOOOOOOOOL!!!!!!!!!' );
+            }
+        }
+        
+        $(this).ekkoLightbox({
+            alwaysShowClose: true,
+            onShow: function() {
+                update_shit(data_title);
+            } 
+        });
+    });
 
     ////////////////////////////////////////
     // Mutation observer - watch for RTL
@@ -75,7 +74,7 @@ jQuery(document).ready(function ($) {
     var target = document.querySelector('html');
 
     var observer = new MutationObserver( function(mutations) {
-        mutations.forEach( function(mutation) {
+        mutations.forEach( function() {
             var classes = target.getAttribute('class');
             var single_class = 'translated-rtl';
             if (classes.includes(single_class)) {
@@ -89,7 +88,7 @@ jQuery(document).ready(function ($) {
     var config = {
         attributes: true,
         attributeFilter: ['class']
-    }
+    };
 
     observer.observe(target, config);
 

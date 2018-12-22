@@ -32,6 +32,12 @@
             'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900,900i' 
         );
 
+        // ekko lightbox
+        wp_enqueue_style( 
+            'lightbox-css', 
+            'https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'
+        );
+
         ////////////////////////////////////////
         // JS
         ////////////////////////////////////////
@@ -60,9 +66,10 @@
             true 
         );
 
+        // ekko lightbox
         wp_enqueue_script( 
-            'magnificPopup', 
-            get_template_directory_uri() . '/js/vendor/magnific-popup-1.1.0.min.js', 
+            'lightbox-js', 
+            'https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js', 
             ['jquery'],
             '1.1.0', 
             true 
