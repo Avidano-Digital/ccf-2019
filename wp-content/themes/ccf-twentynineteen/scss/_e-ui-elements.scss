@@ -607,7 +607,7 @@ $carousel: true;
     display: block;
 
     &:focus{
-      > span{ @extend .bg-primary;}
+      > span{ @extend .bg-black; }
     }
 
     > span{ 
@@ -617,8 +617,8 @@ $carousel: true;
 
       @extend .p-1;
       @extend .m-1;
-      @extend .text-body;
-      @extend .bg-primary;
+      @extend .text-white;
+      @extend .bg-dark;
     }
   }
 }

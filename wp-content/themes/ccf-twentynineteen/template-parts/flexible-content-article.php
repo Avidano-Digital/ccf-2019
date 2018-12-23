@@ -168,11 +168,11 @@
         <figure class="figure my-0">
 
             <?php if( $enlarge ): ?>
-	
-                <a class="figure-img enlarge" href="<?php echo $image['url']; ?>" title="<?php echo $caption; ?>" data-toggle="lightbox" data-footer="<?php echo $caption; ?>">
-                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
-                    <span class="fas fa-search-plus"></span>
-                </a>
+
+            <a class="figure-img enlarge" href="<?php echo $image['url']; ?>" title="<?php echo $caption; ?>" data-toggle="lightbox" data-footer="<?php echo $caption; ?>">
+                <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+                <span class="fas fa-expand"></span>
+            </a>
                 
             <?php else : ?>
 
@@ -180,13 +180,96 @@
             
             <?php endif; ?>
 
+            <?php if( $caption ): ?>
 
             <figcaption class="figure-caption"><?php echo $caption; ?></figcaption>
+            
+            <?php endif; ?>
+        
         </figure>
     </div>
-    <!-- .narrow -->
+    <!-- .medium -->
+    
+    <?php elseif( get_row_layout() == 'two_figure_block' ): 
 
-    <?php endif; /* text_block | video_block | banner_block */ ?>
+    $figure_a = get_sub_field('figure_a');
+
+    $image_a = $figure_a['image'];
+    $caption_a = $figure_a['caption'];
+    $enlarge_a = $figure['enlarge'];
+
+    $figure_b = get_sub_field('figure_b');
+
+    $image_b = $figure_b['image'];
+    $caption_b = $figure_b['caption'];
+    $enlarge_b = $figure['enlarge'];
+
+    ?>
+
+    <div class="two-figure-block offset-gutter-x my-6">
+
+        <div class="row matrix-gutter">
+
+            <div class="col-sm-6 mb-4 mb-sm-0">
+
+                <figure class="figure my-0">
+
+                    <?php if( $enlarge_a ): ?>
+
+                    <a class="figure-img enlarge" href="<?php echo $image_a['url']; ?>" title="<?php echo $caption; ?>" data-toggle="lightbox" data-footer="<?php echo $caption_a; ?>">
+                        <img src="<?php echo $image_a['url']; ?>" alt="<?php echo $image_a['alt'] ?>">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                        
+                    <?php else : ?>
+
+                    <img class="figure-img" src="<?php echo $image_a['url']; ?>" alt="<?php echo $image_a['alt'] ?>">
+
+                    <?php endif; ?>
+
+                    <?php if( $caption_a ): ?>
+
+                    <figcaption class="figure-caption px-2"><?php echo $caption_a; ?></figcaption>
+
+                    <?php endif; ?>
+
+                </figure>
+
+            </div>
+            <!-- .col -->
+
+            <div class="col-sm-6">
+
+                <figure class="figure my-0">
+
+                    <?php if( $enlarge_b ): ?>
+
+                    <a class="figure-img enlarge" href="<?php echo $image_b['url']; ?>" title="<?php echo $caption; ?>" data-toggle="lightbox" data-footer="<?php echo $caption_b; ?>">
+                        <img src="<?php echo $image_b['url']; ?>" alt="<?php echo $image_b['alt'] ?>">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                        
+                    <?php else : ?>
+
+                    <img class="figure-img" src="<?php echo $image_b['url']; ?>" alt="<?php echo $image_b['alt'] ?>">
+
+                    <?php endif; ?>
+
+                    <?php if( $caption_b ): ?>
+
+                    <figcaption class="figure-caption px-2"><?php echo $caption_b; ?></figcaption>
+
+                    <?php endif; ?>
+
+                </figure>
+
+            </div>
+            <!-- .col -->
+
+        </div>
+        <!-- .row -->
+
+    <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block */ ?>
 
 <?php endwhile; endif; /* article_content */ ?>
 
