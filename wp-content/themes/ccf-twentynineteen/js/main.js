@@ -47,15 +47,13 @@ jQuery(document).ready(function ($) {
             var modal_header = target.find('.modal-header h4');
 
             target.removeClass('fade in');
-            close_button.removeClass('close').addClass('ml-auto no-btn-style text-body');
-            close_button.html('<span class="far fa-window-close fa-lg"></span>');
+            close_button.removeClass('close').addClass('ml-auto no-btn-style');
+            close_button.html('<span class="fas fa-times fa-lg"></span>');
 
             if (data_title) {
-                // do something…
-                // console.warn( 'WHAAAAAAAAAAT??????????!!!!!!!!!!' );
+                return;
             } else {
                 modal_header.remove();
-                // console.warn( 'COOOOOOOOOL!!!!!!!!!' );
             }
         }
         

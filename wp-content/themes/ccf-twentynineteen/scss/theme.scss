@@ -440,12 +440,44 @@ blockquote{
 // Figures
 ////////////////////////////////////////
 
-figure{
-  @extend .my-0; 
-}
+figure{ @extend .my-0; }
 
 .figure-img, 
 .figure-info 
 { @extend .mb-1; }
 
 figcaption a { @extend .blended-link; }
+
+
+////////////////////////////////////////
+// Modal
+////////////////////////////////////////
+
+.ekko-lightbox{
+  
+  @extend .text-white;
+  
+  .modal-content,
+  .modal-header,
+  .modal-footer,
+  .modal-body
+  {
+    @extend .p-0;
+    @extend .border-0;
+    background: none;
+  }
+
+  .modal-body{ @extend .shadow-lg; }
+  
+  .modal-header,
+  .modal-footer{
+    @extend .py-1;
+  }
+
+  .modal-footer{
+    @extend .fs-md;
+    @extend .justify-content-start;
+    @extend .px-1;
+  }
+  
+}
