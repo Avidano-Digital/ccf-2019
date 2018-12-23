@@ -1,9 +1,6 @@
-
 <section class="mb-7">
 
-
-
-<?php if( have_rows('article_content') ): while ( have_rows('article_content') ) : the_row(); ?>
+    <?php if( have_rows('article_content') ): while ( have_rows('article_content') ) : the_row(); ?>
 
     <?php if( get_row_layout() == 'text_block' ):
 
@@ -208,7 +205,7 @@
 
     <div class="two-figure-block offset-gutter-x my-6">
 
-        <div class="row matrix-gutter">
+        <div class="row">
 
             <div class="col-sm-6 mb-4 mb-sm-0">
 
@@ -271,7 +268,6 @@
 
     <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block */ ?>
 
-<?php endwhile; endif; /* article_content */ ?>
-
+    <?php endwhile; endif; /* article_content */ ?>
 
 </section>

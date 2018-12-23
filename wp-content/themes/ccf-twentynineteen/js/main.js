@@ -40,7 +40,7 @@ jQuery(document).ready(function ($) {
         
         var data_title = $(this).data('title');
 
-        function update_shit() {
+        function update_modal() {
 
             var target =  $('.ekko-lightbox');
             var close_button = target.find('button[data-dismiss="modal"]');
@@ -60,7 +60,7 @@ jQuery(document).ready(function ($) {
         $(this).ekkoLightbox({
             alwaysShowClose: true,
             onShow: function() {
-                update_shit(data_title);
+                update_modal(data_title);
             } 
         });
     });

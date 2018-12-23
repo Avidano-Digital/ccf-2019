@@ -1,11 +1,11 @@
-<?php $featured_video_group = get_field('featured_video_group');	
+<?php $featured_videos = get_field('featured_videos');	
 
-$headline = $featured_video_group['headline'];
-$videos = $featured_video_group['videos'];
+$headline = $featured_videos['headline'];
+$videos = $featured_videos['videos'];
 
 $post_objects = $videos;
 
-if( $featured_video_group ): ?>
+if( $featured_videos ): ?>
 
 <section class="container-fluid" id="videos">
 
@@ -50,4 +50,4 @@ if( $featured_video_group ): ?>
 </section>
 <!-- #videos -->
 
-<?php endif; /* featured_video_group */ ?>
+<?php endif; /* featured_videos */ ?>
