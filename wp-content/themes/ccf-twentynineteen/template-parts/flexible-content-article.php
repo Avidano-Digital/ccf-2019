@@ -207,7 +207,7 @@
 
         <div class="row matrix-gutter">
 
-            <div class="col-sm-6 mb-4 mb-sm-0">
+            <div class="col-sm-6">
 
                 <figure class="figure my-0">
 
