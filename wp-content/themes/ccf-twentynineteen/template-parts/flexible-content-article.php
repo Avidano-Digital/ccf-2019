@@ -205,7 +205,7 @@
 
     <div class="two-figure-block offset-gutter-x my-6">
 
-        <div class="row">
+        <div class="row matrix-gutter">
 
             <div class="col-sm-6 mb-4 mb-sm-0">
 
