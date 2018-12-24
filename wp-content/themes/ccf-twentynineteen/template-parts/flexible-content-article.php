@@ -266,8 +266,95 @@
         </div>
         <!-- .row -->
 
-    <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block */ ?>
+    </div>
+    <!-- .two-figure-block -->
 
-    <?php endwhile; endif; /* article_content */ ?>
+    <?php elseif( get_row_layout() == 'gallery_carousel_block' ): 
+            
+    $images = get_sub_field('images');
+
+    $count_a = 0;
+    $count_b = 0;
+    
+    ?>
+
+    <?php if( $images ): ?>
+
+    <div class="offset-gutter-x my-7">
+
+    <p class="fs-md f-sans-serif font-weight-normal text-uppercase text-center py-1 mb-0">Gallery Title</p>
+
+        <div class="carousel slide" data-ride="carousel" data-keyboard="true" data-interval="false" id="carousel-gallery" dir="ltr">
+
+            <div class="carousel-outer">
+
+                <div class="carousel-arrows d-none d-md-block">
+
+                    <ul>
+                        <li>
+                            <a class="half-circle right" href="#carousel-gallery" role="button" data-slide="prev">
+                                <span class="fas fa-angle-left fa-2x m-auto" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="half-circle left text-white d-flex" href="#carousel-gallery" role="button" data-slide="next">
+                                <span class="fas fa-angle-right fa-2x d-flex m-auto" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- .row -->
+
+                </div>
+                <!-- .position-absolute -->
+
+                <div class="carousel-inner">
+
+                    <?php foreach( $images as $image ): ?>
+
+                    <div class="carousel-item <?php if($count_a == 0){ echo 'active'; } ?>">
+
+                        <img class="w-100" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+
+                        <div class="carousel-caption bg-opacity-black-60">
+                            <p>
+                                <?php echo $image['caption']; ?>
+                            </p>
+                        </div>
+                    </div>
+
+                    <?php $count_a++; endforeach; ?>
+
+                </div>
+                <!-- .carousel-inner -->
+
+            </div>
+            <!-- .position-relative  -->
+
+            <ol class="link-list horizontal justify-content-center p-1">
+
+                <?php foreach( $images as $image ): ?>
+
+                <li data-target="#carousel-gallery" class="<?php if($count_b == 0){ echo 'active'; } ?>" data-slide-to="<?php echo $count_b; ?>">
+                    <span class="fas fa-circle text-info d-none"></span>
+                    <span class=""><?php echo ($count_b + 1); ?></span>
+                </li>
+
+                <?php $count_b++; endforeach; ?>
+
+            </ol>
+
+        </div>
+        <!-- #carousel-gallery -->
+
+    </div>
+    <!-- .offset-gutter-x -->
+
+    <?php endif; ?>
+
+    <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block | gallery_carousel_block */ ?>
+
+    <?php endwhile; endif; /* article_content */ ?>    
 
 </section>

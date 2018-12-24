@@ -112,6 +112,33 @@ $gradients: true;
     );
   }
 
+
+  // Gradient Backgrounds
+
+  .overlay-gradient-x-right{
+    @include linear-gradient(
+      $direction: to right,
+      $first-color: black,
+      $second-color: black,
+      $first-color-opacity: 0,
+      $second-color-opacity: 0.85,
+      $first-color-position: 0%,
+      $second-color-position: 100%
+    );
+  }
+
+  .overlay-gradient-x-left{
+    @include linear-gradient(
+      $direction: to left,
+      $first-color: black,
+      $second-color: black,
+      $first-color-opacity: 0,
+      $second-color-opacity: 0.85,
+      $first-color-position: 0%,
+      $second-color-position: 100%
+    );
+  }
+
 } // end if
 
 ////////////////////////////////////////
@@ -535,6 +562,53 @@ $default-card-backgrounds: false;
   { background-color: transparent; }
 } // end if
 
+
+////////////////////////////////////////
+// Circle
+////////////////////////////////////////
+
+$circle-size: 50px;
+$gallery-button-background: rgba($black, 0.8);
+
+.half-circle {
+  background: $gallery-button-background;
+  @extend .d-inline-block;
+
+  &.top,
+  &.bottom {
+    height: $circle-size;
+    width: $circle-size * 2;
+  }
+
+  &.right,
+  &.left {
+    height: $circle-size * 2;
+    width: $circle-size;
+  }
+
+  &.top {
+    border-top-left-radius: $circle-size * 2;
+    border-top-right-radius: $circle-size * 2;
+  }
+
+  &.right {
+    border-bottom-right-radius: $circle-size * 2;
+    border-top-right-radius: $circle-size * 2;
+  }
+
+  &.bottom {
+    border-bottom-left-radius: $circle-size * 2;
+    border-bottom-right-radius: $circle-size * 2;
+  }
+
+  &.left {
+    border-bottom-left-radius: $circle-size * 2;
+    border-top-left-radius: $circle-size * 2;
+  }
+
+} // end half-circle
+
+
 ////////////////////////////////////////
 // Carousel
 ////////////////////////////////////////
@@ -542,57 +616,91 @@ $default-card-backgrounds: false;
 $carousel: true;
  
 @if($carousel){
- 
-  .carousel{
- 
-    a[data-slide="prev"],
-    a[data-slide="next"]
-    { color: $carousel-control-color; }
- 
-    .carousel-indicators{
-      @extend .position-static;
-      @extend .m-0;
-      @extend .p-0;
- 
-      > li{
-        cursor: pointer;
-        @extend .rounded-circle;
- 
-        &::before,
-        &::after
-        { @extend .d-none; }
-      }
-    }
 
-    .carousel-caption{
-      @extend .p-0;
-      bottom: 0.75rem;
+  .carousel-outer{
+    @extend .position-relative;
+    @extend .d-flex;
+  }
 
-      > p{ 
-        @extend .d-inline-block;
-        @extend .shadow-sm;
-        @extend .rounded;
-        @extend .py-2;
-        @extend .px-3;
-        @extend .fs-md;
-        @extend .text-black;
-        @include background-opacity($light, .9);
-      }
-    }
- 
-    @include media-breakpoint-down(md){
- 
-      .carousel-caption{
-        position: static;
-        background: $light;
+  .carousel-arrows{
+    @extend .position-absolute;
+    @extend .z-index-900;
+    @extend .w-100;
+    @extend .h-100;
 
-        > p{
-          @include border-radius(0);
-          box-shadow: none !important;
+    top: 0;
+    left: 0;
+
+    > ul{
+      @extend .list-unstyled; 
+      @extend .d-flex; 
+      @extend .justify-content-between; 
+      @extend .align-items-center; 
+      @extend .w-100; 
+      @extend .h-100;
+
+      li > a{
+        @extend .text-white;
+        @extend .d-flex;
+        @include hover-focus{
+          text-decoration: none;
         }
       }
     }
+
   }
+
+  
+  // .carousel{
+ 
+  //   a[data-slide="prev"],
+  //   a[data-slide="next"]
+  //   { color: $carousel-control-color; }
+ 
+  //   .carousel-indicators{
+  //     @extend .position-static;
+  //     @extend .m-0;
+  //     @extend .p-2;
+ 
+  //     > li{
+  //       cursor: pointer;
+  //       @extend .rounded-circle;
+ 
+  //       &::before,
+  //       &::after
+  //       { @extend .d-none; }
+  //     }
+  //   }
+
+  //   .carousel-caption{
+  //     @extend .p-0;
+  //     bottom: 0.75rem;
+
+  //     > p{ 
+  //       @extend .d-inline-block;
+  //       @extend .shadow-sm;
+  //       @extend .rounded;
+  //       @extend .py-2;
+  //       @extend .px-3;
+  //       @extend .fs-md;
+  //       @extend .text-black;
+  //       @include background-opacity($light, .9);
+  //     }
+  //   }
+ 
+  //   @include media-breakpoint-down(md){
+ 
+  //     .carousel-caption{
+  //       position: static;
+  //       background: $light;
+
+  //       > p{
+  //         @include border-radius(0);
+  //         box-shadow: none !important;
+  //       }
+  //     }
+  //   }
+  // }
  
 } // end if
 
@@ -603,22 +711,23 @@ $carousel: true;
 %enlarge{
 
   a.enlarge{
-    position: relative;
-    display: block;
-
-    &:focus{
-      > span{ @extend .bg-black; }
-    }
+    @extend .position-relative;
+    @extend .d-block;
 
     > span{ 
-      position: absolute;
+      @extend .position-absolute;
       bottom: 0;
       right: 0;
+
+      background: $gallery-button-background;
 
       @extend .p-1;
       @extend .m-1;
       @extend .text-white;
-      @extend .bg-dark;
+    }
+
+    &:focus{
+      > span{ @extend .bg-black; }
     }
   }
 }
@@ -640,3 +749,4 @@ $gallery: false;
 } @else {
   figure{ @extend %enlarge; }
 } // end if else
+

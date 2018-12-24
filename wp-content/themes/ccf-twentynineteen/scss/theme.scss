@@ -481,3 +481,6 @@ figcaption a { @extend .blended-link; }
   }
   
 }
+
+::-moz-selection { background: rgba(theme-color("primary"), 0.5); }
+::selection { background: rgba(theme-color("primary"), 0.5); }
