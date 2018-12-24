@@ -32,7 +32,7 @@
 
     <div class="video-block medium my-6">
 
-        <div class="bg-dark">
+        <div class="rounded">
 
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $video_id;?>" frameborder="0" allowTransparency="true" allowfullscreen="true"></iframe>
@@ -282,8 +282,6 @@
 
     <div class="offset-gutter-x my-7">
 
-    <p class="fs-md f-sans-serif font-weight-normal text-uppercase text-center py-1 mb-0">Gallery Title</p>
-
         <div class="carousel slide" data-ride="carousel" data-keyboard="true" data-interval="false" id="carousel-gallery" dir="ltr">
 
             <div class="carousel-outer">
@@ -293,14 +291,12 @@
                     <ul>
                         <li>
                             <a class="half-circle right" href="#carousel-gallery" role="button" data-slide="prev">
-                                <span class="fas fa-angle-left fa-2x m-auto" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
+                                <span class="fas fa-arrow-left m-auto" title="Previous"></span>
                             </a>
                         </li>
                         <li>
                             <a class="half-circle left text-white d-flex" href="#carousel-gallery" role="button" data-slide="next">
-                                <span class="fas fa-angle-right fa-2x d-flex m-auto" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
+                                <span class="fas fa-arrow-right m-auto" title="Next"></span>
                             </a>
                         </li>
                     </ul>
@@ -336,7 +332,7 @@
 
                 <div class="col-auto text-left px-2 d-md-none">
                     <a class="no-btn-style" href="#carousel-gallery" role="button" data-slide="prev">
-                        <span class="fas fa-chevron-left" aria-hidden="true"></span>
+                        <span class="fas fa-arrow-left" title="Previous"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                 </div>
@@ -361,8 +357,7 @@
 
                 <div class="col-auto text-right px-2 d-md-none">
                     <a class="no-btn-style" href="#carousel-gallery" role="button" data-slide="next">
-                        <span class="fas fa-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
+                        <span class="fas fa-arrow-right" title="Next"></span>
                     </a>
                 </div>
                 <!-- .col -->
@@ -381,5 +376,82 @@
     <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block | gallery_carousel_block */ ?>
 
     <?php endwhile; endif; /* article_content */ ?>    
+
+
+    <div class="offset-gutter-x my-7">
+
+        <div class="medium">
+            
+
+        <div class="row matrix-gutter">
+
+            <div class="col-sm-6 col-lg-4">
+                <a class=" text-body" href="#1">
+                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                    <p class="h6 bg-primary p-2">Link Title</p>
+                </a>
+            </div>
+            <!-- .col -->
+            
+            <div class="col-sm-6 col-lg-4">
+                <a class=" text-body" href="#1">
+                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                    <p class="h6 bg-primary p-2">Link Title</p>
+                </a>
+            </div>
+            <!-- .col -->
+            
+            <div class="col-sm-6 col-lg-4">
+                <a class=" text-body" href="#1">
+                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                    <p class="h6 bg-primary p-2">Link Title</p>
+                </a>
+            </div>
+            <!-- .col -->
+            <div class="col-sm-6 col-lg-4">
+                <a class=" text-body" href="#1">
+                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                    <p class="h6 bg-primary p-2">Link Title</p>
+                </a>
+            </div>
+            <!-- .col -->
+            
+            <div class="col-sm-6 col-lg-4">
+                <a class=" text-body" href="#1">
+                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                    <p class="h6 bg-primary p-2">Link Title</p>
+                </a>
+            </div>
+            <!-- .col -->
+            
+            <div class="col-sm-6 col-lg-4">
+                <a class=" text-body" href="#1">
+                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                    <p class="h6 bg-primary p-2">Link Title</p>
+                </a>
+            </div>
+            <!-- .col -->
+
+        </div>
+        <!-- .row -->
+
+        </div>
+        <!-- .medium -->
+    </div>
+    <!-- .offset-gutter-x -->
+
+    <div class="narrow mb-5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.</p>
+    </div>
+
 
 </section>
