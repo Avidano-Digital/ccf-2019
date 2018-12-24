@@ -617,6 +617,9 @@ $carousel: true;
  
 @if($carousel){
 
+  $carousel-indicator-width: auto;
+  $carousel-indicator-height: auto;
+
   .carousel-outer{
     @extend .position-relative;
     @extend .d-flex;
@@ -650,57 +653,63 @@ $carousel: true;
 
   }
 
-  
-  // .carousel{
- 
-  //   a[data-slide="prev"],
-  //   a[data-slide="next"]
-  //   { color: $carousel-control-color; }
- 
-  //   .carousel-indicators{
-  //     @extend .position-static;
-  //     @extend .m-0;
-  //     @extend .p-2;
- 
-  //     > li{
-  //       cursor: pointer;
-  //       @extend .rounded-circle;
- 
-  //       &::before,
-  //       &::after
-  //       { @extend .d-none; }
-  //     }
-  //   }
+  .carousel-indicators{
+    @extend .position-static;
+    @extend .link-list;
+    @extend .horizontal;
+    @extend .justify-content-center;
+    @extend .mb-0;
 
-  //   .carousel-caption{
-  //     @extend .p-0;
-  //     bottom: 0.75rem;
+    > li{
+      @extend .d-inline-block;
+    
+      width: $carousel-indicator-width !important;
+      height: $carousel-indicator-height !important;
+      text-indent: 0;
+      
+      &::before,
+      &::after {
+        @extend .d-none;
+      }
 
-  //     > p{ 
-  //       @extend .d-inline-block;
-  //       @extend .shadow-sm;
-  //       @extend .rounded;
-  //       @extend .py-2;
-  //       @extend .px-3;
-  //       @extend .fs-md;
-  //       @extend .text-black;
-  //       @include background-opacity($light, .9);
-  //     }
-  //   }
- 
-  //   @include media-breakpoint-down(md){
- 
-  //     .carousel-caption{
-  //       position: static;
-  //       background: $light;
+      button{
+        outline: none;
+      }
+    }
 
-  //       > p{
-  //         @include border-radius(0);
-  //         box-shadow: none !important;
-  //       }
-  //     }
-  //   }
-  // }
+    li.active{
+      color: $orange !important;
+    }
+  }
+
+  .carousel-caption{
+    bottom: 0.1.25rem;
+    @extend .p-0;
+
+    > p{ 
+      @extend .d-inline-block;
+      @extend .f-sans-serif;
+      @extend .shadow-sm;
+      @extend .rounded;
+      @extend .py-2;
+      @extend .px-3;
+      @extend .fs-md;
+      @extend .text-body;
+      @include background-opacity($white, 0.9);
+    }
+  }
+ 
+  @include media-breakpoint-down(md){
+    .carousel-caption{
+      position: static;
+      border-bottom: $border-width solid $border-color;
+
+      > p{
+        @include border-radius(0);
+        box-shadow: none !important;
+      }
+    }
+  }
  
 } // end if
 

@@ -307,7 +307,7 @@
                     <!-- .row -->
 
                 </div>
-                <!-- .position-absolute -->
+                <!-- .carousel-arrows -->
 
                 <div class="carousel-inner">
 
@@ -330,20 +330,45 @@
                 <!-- .carousel-inner -->
 
             </div>
-            <!-- .position-relative  -->
+            <!-- .carousel-outer  -->
 
-            <ol class="link-list horizontal justify-content-center p-1">
+            <div class="row no-gutters align-items-center justify-content-between py-1">
 
-                <?php foreach( $images as $image ): ?>
+                <div class="col-auto text-left px-2 d-md-none">
+                    <a class="no-btn-style" href="#carousel-gallery" role="button" data-slide="prev">
+                        <span class="fas fa-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </div>
+                <!-- .col -->
 
-                <li data-target="#carousel-gallery" class="<?php if($count_b == 0){ echo 'active'; } ?>" data-slide-to="<?php echo $count_b; ?>">
-                    <span class="fas fa-circle text-info d-none"></span>
-                    <span class=""><?php echo ($count_b + 1); ?></span>
-                </li>
+                <div class="col">
 
-                <?php $count_b++; endforeach; ?>
+                    <ol class="carousel-indicators">
 
-            </ol>
+                        <?php foreach( $images as $image ): ?>
+
+                        <li class="<?php if($count_b == 0){ echo 'active'; } ?>" data-target="#carousel-gallery" data-slide-to="<?php echo $count_b; ?>" role="button">
+                            <button class="no-btn-style"> <?php echo ($count_b + 1); ?></button>
+                        </li>
+
+                        <?php $count_b++; endforeach; ?>
+
+                    </ol>
+
+                </div>
+                <!-- .col -->
+
+                <div class="col-auto text-right px-2 d-md-none">
+                    <a class="no-btn-style" href="#carousel-gallery" role="button" data-slide="next">
+                        <span class="fas fa-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+            </div>
+            <!-- .row -->
 
         </div>
         <!-- #carousel-gallery -->
