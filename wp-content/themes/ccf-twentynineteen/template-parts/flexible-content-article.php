@@ -373,7 +373,47 @@
 
     <?php endif; ?>
 
-    <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block | gallery_carousel_block */ ?>
+
+    <?php elseif( get_row_layout() == 'thumnail_links_block' ): ?>
+
+    <?php if( have_rows('links') ): ?>
+
+    <div class="offset-gutter-x my-7">
+
+        <div class="medium">
+
+            <div class="row matrix-gutter">
+
+            <?php while ( have_rows('links') ) : the_row(); 
+
+            // vars
+            $image = get_sub_field('image');
+            $link = get_sub_field('link');
+
+            ?>
+
+                <div class="col-sm-6 col-lg-4">
+                    <a class=" text-body" href="<?php echo $link['url']; ?>">
+                        <img class="img-fluid" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+                        <p class="h6 bg-primary p-2"><?php echo $link['title']; ?></p>
+                    </a>
+                </div>
+                <!-- .col -->
+
+            <?php endwhile; ?>
+
+            </div>
+            <!-- .row -->
+
+        </div>
+        <!-- .medium -->
+
+    </div>
+    <!-- .offset-gutter-x -->
+
+    <?php endif; ?>
+
+    <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block | gallery_carousel_block  | thumnail_links_block */ ?>
 
     <?php endwhile; endif; /* article_content */ ?>    
 
@@ -381,59 +421,58 @@
     <div class="offset-gutter-x my-7">
 
         <div class="medium">
-            
 
-        <div class="row matrix-gutter">
+            <div class="row matrix-gutter">
 
-            <div class="col-sm-6 col-lg-4">
-                <a class=" text-body" href="#1">
-                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
-                    <p class="h6 bg-primary p-2">Link Title</p>
-                </a>
-            </div>
-            <!-- .col -->
-            
-            <div class="col-sm-6 col-lg-4">
-                <a class=" text-body" href="#1">
-                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
-                    <p class="h6 bg-primary p-2">Link Title</p>
-                </a>
-            </div>
-            <!-- .col -->
-            
-            <div class="col-sm-6 col-lg-4">
-                <a class=" text-body" href="#1">
-                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
-                    <p class="h6 bg-primary p-2">Link Title</p>
-                </a>
-            </div>
-            <!-- .col -->
-            <div class="col-sm-6 col-lg-4">
-                <a class=" text-body" href="#1">
-                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
-                    <p class="h6 bg-primary p-2">Link Title</p>
-                </a>
-            </div>
-            <!-- .col -->
-            
-            <div class="col-sm-6 col-lg-4">
-                <a class=" text-body" href="#1">
-                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
-                    <p class="h6 bg-primary p-2">Link Title</p>
-                </a>
-            </div>
-            <!-- .col -->
-            
-            <div class="col-sm-6 col-lg-4">
-                <a class=" text-body" href="#1">
-                    <img src="https://placehold.it/600x400.jpg" class="img-fluid">
-                    <p class="h6 bg-primary p-2">Link Title</p>
-                </a>
-            </div>
-            <!-- .col -->
+                <div class="col-sm-6 col-lg-4">
+                    <a class=" text-body" href="#1">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <p class="h6 bg-primary p-2">Link Title</p>
+                    </a>
+                </div>
+                <!-- .col -->
+                
+                <div class="col-sm-6 col-lg-4">
+                    <a class=" text-body" href="#1">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <p class="h6 bg-primary p-2">Link Title</p>
+                    </a>
+                </div>
+                <!-- .col -->
+                
+                <div class="col-sm-6 col-lg-4">
+                    <a class=" text-body" href="#1">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <p class="h6 bg-primary p-2">Link Title</p>
+                    </a>
+                </div>
+                <!-- .col -->
+                <div class="col-sm-6 col-lg-4">
+                    <a class=" text-body" href="#1">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <p class="h6 bg-primary p-2">Link Title</p>
+                    </a>
+                </div>
+                <!-- .col -->
+                
+                <div class="col-sm-6 col-lg-4">
+                    <a class=" text-body" href="#1">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <p class="h6 bg-primary p-2">Link Title</p>
+                    </a>
+                </div>
+                <!-- .col -->
+                
+                <div class="col-sm-6 col-lg-4">
+                    <a class=" text-body" href="#1">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <p class="h6 bg-primary p-2">Link Title</p>
+                    </a>
+                </div>
+                <!-- .col -->
 
-        </div>
-        <!-- .row -->
+            </div>
+            <!-- .row -->
 
         </div>
         <!-- .medium -->
@@ -441,17 +480,67 @@
     <!-- .offset-gutter-x -->
 
     <div class="narrow mb-5">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.
+        </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
             pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
             Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
             luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
-            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
-            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
-            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
-            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
-            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.</p>
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.
+        </p>
     </div>
+    <!-- .narrow -->
 
+        <div class="medium my-7">
+
+
+        <div class="row no-gutters">
+
+            <div class="col-sm-6">
+                <img src="https://placehold.it/600x600.jpg" alt="Placeholder">
+            </div>
+
+            <div class="col-sm-6 d-flex bg-light">
+
+            <div class="align-self-center p-3">
+
+                <h3 class="h4 text-info">I am a header 2</h3>
+                <p class="fs-md f-sans-serif">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+                    pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+                </p>
+
+            </div>
+
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+
+    <div class="narrow mb-5">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.
+        </p>
+    </div>
+    <!-- .narrow -->
 
 </section>
