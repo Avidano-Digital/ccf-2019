@@ -498,22 +498,28 @@
 
         <div class="medium my-7">
 
-
         <div class="row no-gutters">
 
             <div class="col-sm-6">
-                <img src="https://placehold.it/600x600.jpg" alt="Placeholder">
+                <!-- <img src="https://placehold.it/600x900.jpg" alt="Placeholder"> -->
+                <img src="<?php echo get_template_directory_uri(); ?>/images/experimental/01.jpg' ?>" alt="Placeholder">
+                
             </div>
 
-            <div class="col-sm-6 d-flex bg-light">
+            <div class="col-sm-6 d-flex bg-light  pattern-border-colored">
 
-            <div class="align-self-center p-3">
+            <div class="align-self-center  p-3">
 
-                <h3 class="h4 text-info">I am a header 2</h3>
+                <h3 class="h4 text-info">Cheetah Museum</h3>
                 <p class="fs-md f-sans-serif">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
-                    pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+                Displays at our Cheetah Museum are designed around CCF’s scientific research findings and provide detailed information about the cheetah: its history, physiology, importance within the ecosystem, conflict with humans, and what CCF is doing to ensure the species’ survival for future generations.
                 </p>
+                <a class="fs-md text-info" href="#1">
+
+                <span class="far fa-images fa-lg"></span>
+                <span><strong>Explore</strong></span>
+
+                </a>
 
             </div>
 

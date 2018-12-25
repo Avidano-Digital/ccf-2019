@@ -385,6 +385,34 @@ $leaflet-button-color: white;
 
 }
 
+
+
+.pattern-border-colored{
+
+  @extend .py-4;
+  
+  @extend .position-relative;
+
+  &::before,
+  &::after {
+    content: "\00a0";
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    left: 0;
+  }
+
+  &::before {
+    top: .5rem;
+    @include apply-background-image('pattern-colored-angles', '.svg');
+  }
+  &::after {
+    bottom: .5rem;
+    @include apply-background-image('pattern-colored-angles', '.svg');
+  }
+
+}
+
 dl p{ margin-bottom: 0.5rem; }
 
 figure{

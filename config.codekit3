@@ -15341,6 +15341,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/images/cheetah-spots.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/cheetah-spots.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/wp-content/themes/ccf-twentynineteen/images/donate-aside.jpg": {
 		"ft": 16384,
 		"iS": 171789,
@@ -15361,6 +15371,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/experimental/01.jpg": {
+		"ft": 16384,
+		"iS": 124305,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/experimental/01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/wp-content/themes/ccf-twentynineteen/images/hero/ccf-blog.jpg": {
@@ -15399,6 +15420,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/wp-content/themes/ccf-twentynineteen/images/pattern-03.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/wp-content/themes/ccf-twentynineteen/images/pattern-colored-angles.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/pattern-colored-angles.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
