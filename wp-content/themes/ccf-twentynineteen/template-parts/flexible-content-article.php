@@ -168,13 +168,21 @@
             <?php if( $enlarge ): ?>
 
             <a class="figure-img enlarge" href="<?php echo $image['url']; ?>" title="<?php echo $caption; ?>" data-toggle="lightbox" data-footer="<?php echo $caption; ?>">
-                <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+                <?php if( $image ): ?>
+                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+                <?php else : ?>
+                    <img src="https://placehold.it/1000x600.jpg" alt="Placeholder">
+                <?php endif; ?>
                 <span class="fas fa-expand"></span>
             </a>
                 
             <?php else : ?>
 
-            <img class="figure-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+            <?php if( $image ): ?>
+                <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+            <?php else : ?>
+                <img src="https://placehold.it/1000x600.jpg" alt="Placeholder">
+            <?php endif; ?>
             
             <?php endif; ?>
 
@@ -419,6 +427,70 @@
     <!-- .offset-gutter-x -->
 
     <?php endif; ?>
+
+    <?php elseif( get_row_layout() == 'gallery_thumbnail_block' ): ?>
+
+    <div class="offset-gutter-x my-7">
+
+        <div class="medium gallery-thumbnails">
+
+            <div class="row matrix-gutter">
+
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+            </div>
+            <!-- .row -->
+
+        </div>
+        <!-- .medium -->
+    
+    </div>
+    <!-- .offset-gutter-x -->
 
     <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block | gallery_carousel_block  | thumnail_links_block */ ?>
 
