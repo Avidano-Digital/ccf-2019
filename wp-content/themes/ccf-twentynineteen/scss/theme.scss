@@ -512,3 +512,19 @@ figcaption a { @extend .blended-link; }
 
 ::-moz-selection { background: rgba(theme-color("primary"), 0.5); }
 ::selection { background: rgba(theme-color("primary"), 0.5); }
+
+figure.right{
+  float: right;
+  margin: 1rem;
+  margin-right: -($floated-figure-offset-x);
+
+  @include media-breakpoint-down(md) {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+   }
+
+
+}

@@ -36,7 +36,7 @@ get_header(); ?>
 
             ?>
 
-            <?php if( $hero ): ?>
+            <?php if( $image ): ?>
 
                 <img class="card-img" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
 

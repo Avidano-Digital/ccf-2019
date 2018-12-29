@@ -741,17 +741,17 @@ $carousel: true;
   }
 }
 
-$gallery: false;
+$gallery: true;
 
 @if($gallery){
 
-  .gallery{
+  .gallery-thumbnails{
     a, 
     img
     { @extend .m-0; }
   }
 
-  .gallery, 
+  .gallery-thumbnails, 
   figure
   { @extend %enlarge; }
 

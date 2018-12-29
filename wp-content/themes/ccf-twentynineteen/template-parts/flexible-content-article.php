@@ -314,9 +314,15 @@
                         <img class="w-100" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
 
                         <div class="carousel-caption bg-opacity-black-60">
+                            <?php if ($image['caption']) : ?>
                             <p>
                                 <?php echo $image['caption']; ?>
                             </p>
+                            <? else : ?>
+                            <p>
+                                A caption for the image.
+                            </p>
+                            <?php endif; ?>
                         </div>
                     </div>
 
@@ -417,7 +423,6 @@
 
     <?php endwhile; endif; /* article_content */ ?>    
 
-
     <div class="offset-gutter-x my-7">
 
         <div class="medium">
@@ -485,52 +490,51 @@
             pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
             Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
             luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
-            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
         </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
             pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
             Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
             luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
-            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
         </p>
     </div>
     <!-- .narrow -->
 
-        <div class="medium my-7">
+    <div class="offset-gutter-x my-7">
 
-        <div class="row no-gutters">
+        <div class="row medium no-gutters">
 
             <div class="col-sm-6">
-                <!-- <img src="https://placehold.it/600x900.jpg" alt="Placeholder"> -->
                 <img src="<?php echo get_template_directory_uri(); ?>/images/experimental/01.jpg' ?>" alt="Placeholder">
-                
             </div>
+            <!-- .col -->
 
-            <div class="col-sm-6 d-flex bg-light  pattern-border-colored">
+            <div class="col-sm-6 d-flex bg-light pattern-border-colored">
 
-            <div class="align-self-center  p-3">
+                <div class="align-self-center p-3">
 
-                <h3 class="h4 text-info">Cheetah Museum</h3>
-                <p class="fs-md f-sans-serif">
-                Displays at our Cheetah Museum are designed around CCF’s scientific research findings and provide detailed information about the cheetah: its history, physiology, importance within the ecosystem, conflict with humans, and what CCF is doing to ensure the species’ survival for future generations.
-                </p>
-                <a class="fs-md text-info" href="#1">
+                    <h3 class="h4 text-info">Cheetah Museum</h3>
+                    <p class="fs-md f-sans-serif">
+                    Displays at our Cheetah Museum are designed around CCF’s scientific research findings and provide detailed information about the cheetah: its history, physiology, importance within the ecosystem, conflict with humans, and what CCF is doing to ensure the species’ survival for future generations.
+                    </p>
+                    <a class="fs-md text-info" href="#1">
 
-                <span class="far fa-images fa-lg"></span>
-                <span><strong>Explore</strong></span>
+                    <span class="far fa-images fa-lg"></span>
+                    <span><strong>Explore</strong></span>
 
-                </a>
+                    </a>
+
+                </div>
 
             </div>
-
-            </div>
+            <!-- .col -->
 
         </div>
+        <!-- .row -->
 
-
-
-        </div>
-
+    </div>
+    <!-- .medium -->
 
     <div class="narrow mb-5">
         <p>
@@ -538,13 +542,110 @@
             pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
             Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
             luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
-            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
         </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
             pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
             Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
             luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
-            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh. Ut vulputate metus et nulla laoreet pharetra.
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
+        </p>
+    </div>
+    <!-- .narrow -->
+
+    <div class="offset-gutter-x my-7">
+
+        <div class="medium gallery-thumbnails">
+
+            <div class="row matrix-gutter">
+
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+                <div class="col-sm-6">
+                    <a class="enlarge" href="https://placehold.it/1200x800.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-footer="A custom footer text">
+                        <img src="https://placehold.it/600x400.jpg" class="img-fluid">
+                        <span class="fas fa-expand"></span>
+                    </a>
+                </div>
+                <!-- .col -->
+
+            </div>
+            <!-- .row -->
+
+        </div>
+        <!-- .medium -->
+    
+    </div>
+    <!-- .offset-gutter-x -->
+
+    <div class="narrow mb-5">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
+        </p>
+
+        <figure class="right">
+            <img src="https://placehold.it/240x360.jpg" alt="Placeholder">
+            <figcaption>A caption for the image</figcaption>
+        </figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
         </p>
     </div>
     <!-- .narrow -->
