@@ -8,7 +8,7 @@
     
     ?>
 
-    <div class="narrow mb-5">
+    <div class="text-block narrow mb-5">
         <?php echo $wysiwyg; ?>
     </div>
 
@@ -66,7 +66,7 @@
 
     ?>
 
-    <div class="offset-gutter-x my-7">
+    <div class="banner-block offset-gutter-x my-7">
 
         <figure class="figure w-100">
 
@@ -161,7 +161,8 @@
     
     ?>
 
-    <div class="medium my-6">
+    <div class="figure-block medium my-6">
+
         <figure class="figure my-0">
 
             <?php if( $enlarge ): ?>
@@ -184,6 +185,7 @@
             <?php endif; ?>
         
         </figure>
+
     </div>
     <!-- .medium -->
     
@@ -280,7 +282,7 @@
 
     <?php if( $images ): ?>
 
-    <div class="offset-gutter-x my-7">
+    <div class="gallery-carousel-block offset-gutter-x my-7">
 
         <div class="carousel slide" data-ride="carousel" data-keyboard="true" data-interval="false" id="carousel-gallery" dir="ltr">
 
@@ -379,12 +381,11 @@
 
     <?php endif; ?>
 
-
     <?php elseif( get_row_layout() == 'thumnail_links_block' ): ?>
 
     <?php if( have_rows('links') ): ?>
 
-    <div class="offset-gutter-x my-7">
+    <div class="thumbnail-links-block offset-gutter-x my-7">
 
         <div class="medium">
 
@@ -421,7 +422,26 @@
 
     <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block | gallery_carousel_block  | thumnail_links_block */ ?>
 
-    <?php endwhile; endif; /* article_content */ ?>    
+    <?php endwhile; endif; /* article_content */ ?>
+
+    <?php if ( is_single( 'article-tearsheet' ) ) : ?>
+
+    <div class="narrow mb-5">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
+        </p>
+    </div>
+    <!-- .narrow -->
 
     <div class="offset-gutter-x my-7">
 
@@ -436,7 +456,7 @@
                     </a>
                 </div>
                 <!-- .col -->
-                
+
                 <div class="col-sm-6 col-lg-4">
                     <a class=" text-body" href="#1">
                         <img src="https://placehold.it/600x400.jpg" class="img-fluid">
@@ -444,7 +464,7 @@
                     </a>
                 </div>
                 <!-- .col -->
-                
+
                 <div class="col-sm-6 col-lg-4">
                     <a class=" text-body" href="#1">
                         <img src="https://placehold.it/600x400.jpg" class="img-fluid">
@@ -459,7 +479,7 @@
                     </a>
                 </div>
                 <!-- .col -->
-                
+
                 <div class="col-sm-6 col-lg-4">
                     <a class=" text-body" href="#1">
                         <img src="https://placehold.it/600x400.jpg" class="img-fluid">
@@ -467,7 +487,7 @@
                     </a>
                 </div>
                 <!-- .col -->
-                
+
                 <div class="col-sm-6 col-lg-4">
                     <a class=" text-body" href="#1">
                         <img src="https://placehold.it/600x400.jpg" class="img-fluid">
@@ -635,6 +655,7 @@
             <img src="https://placehold.it/240x360.jpg" alt="Placeholder">
             <figcaption>A caption for the image</figcaption>
         </figure>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
             pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
             Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
@@ -648,6 +669,8 @@
             tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
         </p>
     </div>
-    <!-- .narrow -->
+    <!-- .narrow --> 
+
+    <?php endif; ?>
 
 </section>
