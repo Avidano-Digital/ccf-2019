@@ -743,6 +743,129 @@
     </div>
     <!-- .narrow --> 
 
+
+    <div class="narrow mb-5">
+        <h2>Here is another headline</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue ultricies lacinia. Suspendisse
+            pharetra vulputate augue sed pharetra. Etiam pharetra tortor sed tortor eleifend, non varius tortor sodales.
+            Duis et molestie diam, id facilisis ligula. Sed eleifend erat orci, sit amet laoreet eros pretium ut. Nullam
+            luctus blandit mollis. Pellentesque lacinia magna quis malesuada accumsan. Suspendisse gravida non tortor eu
+            tempus. Cras at nunc ac lectus iaculis aliquam ut posuere nibh.
+        </p>
+    </div>
+    <!-- .narrow -->
+
+    <div class="offset-gutter-x my-7">
+
+        <div class="row no-gutters">
+            <div class="col-6">
+                <img src="https://placehold.it/1000x800.jpg" alt="Placeholder">
+            </div>
+            <!-- .col -->
+
+            <div class="col-6 d-flex bg-info text-white">
+                <div class="narrow align-self-center p-3">
+                    <h3 class="h4 text-primary">Cheetah Museum</h3>
+                    <p class=" fs-md f-sans-serif">
+                        Displays at our Cheetah Museum are designed around CCF’s scientific research findings and provide detailed
+                        information about the cheetah: its history, physiology, importance within the ecosystem, conflict with humans,
+                        and what CCF is doing to ensure the species’ survival for future generations.
+                    </p>
+                    <a class="fs-md text-primary" href="#1">
+                        <span class="far fa-images fa-lg"></span>
+                        <span><strong>Explore</strong></span>
+                    </a>
+                </div>
+            </div>
+            <!-- .col -->
+
+        </div>
+        <!-- .row -->
+
+        <div class="row no-gutters">
+            <div class="col-6">
+                <img src="https://placehold.it/1000x800.jpg" alt="Placeholder">
+            </div>
+            <!-- .col -->
+
+            <div class="col-6 d-flex bg-tertiary text-white">
+                <div class="narrow align-self-center p-3">
+                    <h3 class="h4 text-primary">Model Farm</h3>
+                    <p class=" fs-md f-sans-serif">
+                        Displays at our Cheetah Museum are designed around CCF’s scientific research findings and provide detailed
+                        information about the cheetah: its history, physiology, importance within the ecosystem, conflict with humans,
+                        and what CCF is doing to ensure the species’ survival for future generations.
+                    </p>
+                    <a class="fs-md text-primary" href="#1">
+                        <span class="far fa-images fa-lg"></span>
+                        <span><strong>Explore</strong></span>
+                    </a>
+                </div>
+            </div>
+            <!-- .col -->
+
+        </div>
+        <!-- .row -->
+
+        <div class="row no-gutters">
+            <div class="col-6">
+                <img src="https://placehold.it/1000x800.jpg" alt="Placeholder">
+            </div>
+            <!-- .col -->
+
+            <div class="col-6 d-flex bg-info text-white">
+                <div class="narrow align-self-center p-3">
+                    <h3 class="h4 text-primary">Camp Lightfoot</h3>
+                    <p class=" fs-md f-sans-serif">
+                        Displays at our Cheetah Museum are designed around CCF’s scientific research findings and provide detailed
+                        information about the cheetah: its history, physiology, importance within the ecosystem, conflict with humans,
+                        and what CCF is doing to ensure the species’ survival for future generations.
+                    </p>
+                    <a class="fs-md text-primary" href="#1">
+                        <span class="far fa-images fa-lg"></span>
+                        <span><strong>Explore</strong></span>
+                    </a>
+                </div>
+            </div>
+            <!-- .col -->
+
+        </div>
+        <!-- .row -->
+
+        <div class="row no-gutters">
+            <div class="col-6">
+                <img src="https://placehold.it/1000x800.jpg" alt="Placeholder">
+            </div>
+            <!-- .col -->
+
+            <div class="col-6 d-flex bg-tertiary text-white">
+                <div class="narrow align-self-center p-3">
+                    <h3 class="h4 text-primary">Biomass Technology Demonstration Center</h3>
+                    <p class=" fs-md f-sans-serif">
+                        Displays at our Cheetah Museum are designed around CCF’s scientific research findings and provide detailed
+                        information about the cheetah: its history, physiology, importance within the ecosystem, conflict with humans,
+                        and what CCF is doing to ensure the species’ survival for future generations.
+                    </p>
+                    <a class="fs-md text-primary" href="#1">
+                        <span class="far fa-images fa-lg"></span>
+                        <span><strong>Explore</strong></span>
+                    </a>
+                </div>
+            </div>
+            <!-- .col -->
+
+        </div>
+        <!-- .row -->
+        
+    </div>
+
     <?php endif; ?>
 
 </section>
