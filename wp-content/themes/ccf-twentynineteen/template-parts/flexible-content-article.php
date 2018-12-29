@@ -765,12 +765,13 @@
     <div class="offset-gutter-x my-7">
 
         <div class="row no-gutters">
-            <div class="col-6">
+
+            <div class="col-lg-6">
                 <img src="https://placehold.it/1000x800.jpg" alt="Placeholder">
             </div>
             <!-- .col -->
 
-            <div class="col-6 d-flex bg-info text-white">
+            <div class="col-lg-6 d-flex bg-info text-white">
                 <div class="narrow align-self-center p-3">
                     <h3 class="h4 text-primary">Cheetah Museum</h3>
                     <p class=" fs-md f-sans-serif">
@@ -790,12 +791,13 @@
         <!-- .row -->
 
         <div class="row no-gutters">
-            <div class="col-6">
+
+            <div class="col-lg-6">
                 <img src="https://placehold.it/1000x800.jpg" alt="Placeholder">
             </div>
             <!-- .col -->
 
-            <div class="col-6 d-flex bg-tertiary text-white">
+            <div class="col-lg-6 d-flex bg-tertiary text-white">
                 <div class="narrow align-self-center p-3">
                     <h3 class="h4 text-primary">Model Farm</h3>
                     <p class=" fs-md f-sans-serif">
@@ -815,12 +817,13 @@
         <!-- .row -->
 
         <div class="row no-gutters">
-            <div class="col-6">
+
+            <div class="col-lg-6">
                 <img src="https://placehold.it/1000x800.jpg" alt="Placeholder">
             </div>
             <!-- .col -->
 
-            <div class="col-6 d-flex bg-info text-white">
+            <div class="col-lg-6 d-flex bg-info text-white">
                 <div class="narrow align-self-center p-3">
                     <h3 class="h4 text-primary">Camp Lightfoot</h3>
                     <p class=" fs-md f-sans-serif">
@@ -840,12 +843,12 @@
         <!-- .row -->
 
         <div class="row no-gutters">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <img src="https://placehold.it/1000x800.jpg" alt="Placeholder">
             </div>
             <!-- .col -->
 
-            <div class="col-6 d-flex bg-tertiary text-white">
+            <div class="col-lg-6 d-flex bg-tertiary text-white">
                 <div class="narrow align-self-center p-3">
                     <h3 class="h4 text-primary">Biomass Technology Demonstration Center</h3>
                     <p class=" fs-md f-sans-serif">
