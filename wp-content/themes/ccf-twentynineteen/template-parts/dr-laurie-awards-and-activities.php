@@ -1,18 +1,18 @@
-<?php if( have_rows('awards_and_activities_content') ):
+<?php if( have_rows('awards_and_activities_list') ):
 
-    while ( have_rows('awards_and_activities_content') ) : the_row();
+    while ( have_rows('awards_and_activities_list') ) : the_row();
 
     $headline = get_sub_field('headline');
 
     ?>
 
-    <section id="awards-and-honors" class="mb-5 mb-xl-6">
+    <section id="awards-and-honors">
 
-        <div class="narrow mb-5 mb-xl-6">
+        <div class="narrow my-7">
 
-            <h3 class="h2 mb-4"><?php echo $headline; ?></h3>
+            <h3 class="h2 mb-2"><?php echo $headline; ?></h3>
 
-            <?php if( have_rows('description_list') ): while( have_rows('description_list') ): the_row();
+            <?php if( have_rows('content_rows') ): while( have_rows('content_rows') ): the_row();
 
             $date = get_sub_field('date');
             $description = get_sub_field('description');
