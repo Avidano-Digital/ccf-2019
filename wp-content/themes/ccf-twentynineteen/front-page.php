@@ -297,7 +297,6 @@
 
       <?php while( have_rows('cheetah_facts') ): the_row(); 
   
-      // Cheetah Facts Variables
       $cheetah_facts = get_field('cheetah_facts'); 
       $headline = $cheetah_facts['headline'];
       $link = $cheetah_facts['link'];
@@ -318,7 +317,6 @@
 
         while ( have_rows('facts') ) : the_row(); 
 
-        // Facts Variables
         $image = get_sub_field('image');
         $headline = get_sub_field('headline');
         $text = get_sub_field('text');

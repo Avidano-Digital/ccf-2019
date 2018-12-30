@@ -15777,6 +15777,13 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/content.php",
 		"oF": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/template-parts/dr-laurie-awards-and-activities.1.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/template-parts/dr-laurie-awards-and-activities.1.php",
+		"oF": 0
+		},
 	"/wp-content/themes/ccf-twentynineteen/template-parts/dr-laurie-awards-and-activities.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -15887,6 +15894,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/B2_21June2016_Eli.Walker.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/centre-1-320x213.jpg": {
+		"ft": 16384,
+		"iS": 22025,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/centre-1-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/centre-1.jpg": {
+		"ft": 16384,
+		"iS": 443541,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/centre-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/centre-1_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 841940,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/centre-1_1200x800_acf_cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -16112,6 +16152,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-education-outreach-320x212.jpg": {
+		"ft": 16384,
+		"iS": 17665,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-education-outreach-320x212.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-education-outreach.jpg": {
+		"ft": 16384,
+		"iS": 921350,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-education-outreach.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-education-outreach_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 726041,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-education-outreach_1200x800_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/cheetah-conservation-fund-education.jpg": {
 		"ft": 16384,
 		"iS": 934228,
@@ -16173,6 +16246,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-hass-vet-clinic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-livestock-management-320x212.jpg": {
+		"ft": 16384,
+		"iS": 23791,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-livestock-management-320x212.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/cheetah-conservation-fund-livestock-management.jpg": {
+		"ft": 16384,
+		"iS": 900119,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/cheetah-conservation-fund-livestock-management.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -16716,6 +16811,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/dr-laurie-landrover-320x192.jpg": {
+		"ft": 16384,
+		"iS": 17620,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-landrover-320x192.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/dr-laurie-landrover.jpg": {
+		"ft": 16384,
+		"iS": 205976,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-landrover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/dr-laurie-marker-and-senay-320x213.jpg": {
 		"ft": 16384,
 		"iS": 21683,
@@ -16760,6 +16877,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-cheetah-conservation-fund-founder-320x213.jpg": {
+		"ft": 16384,
+		"iS": 17736,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-cheetah-conservation-fund-founder-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-cheetah-conservation-fund-founder.jpg": {
+		"ft": 16384,
+		"iS": 642240,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-cheetah-conservation-fund-founder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-cheetah-conservation-fund-founder_1500x500_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 495197,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-cheetah-conservation-fund-founder_1500x500_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/dr-laurie-marker-giving-a-rescued-cheetah-treat-from-spoon_500x250-320x160.jpg": {
 		"ft": 16384,
 		"iS": 13255,
@@ -16777,6 +16927,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-giving-a-rescued-cheetah-treat-from-spoon_500x250.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage-1500x1000-320x213.jpg": {
+		"ft": 16384,
+		"iS": 26451,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage-1500x1000-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage-1500x1000.jpg": {
+		"ft": 16384,
+		"iS": 476643,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage-1500x1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage-1500x1000_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 989681,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/dr-laurie-marker-with-cheetah-vintage-1500x1000_1200x800_acf_cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -16936,6 +17119,83 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/laurie-and-khayam-320x213.jpg": {
+		"ft": 16384,
+		"iS": 20107,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/laurie-and-khayam-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/laurie-and-khayam.jpg": {
+		"ft": 16384,
+		"iS": 348875,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/laurie-and-khayam.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/laurie-and-khayam_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 743887,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/laurie-and-khayam_1200x800_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/Laurie-Marker-at-Wildlife-Safari-in-Oregon-320x213.jpg": {
+		"ft": 16384,
+		"iS": 22775,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/Laurie-Marker-at-Wildlife-Safari-in-Oregon-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/Laurie-Marker-at-Wildlife-Safari-in-Oregon.jpg": {
+		"ft": 16384,
+		"iS": 437241,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/Laurie-Marker-at-Wildlife-Safari-in-Oregon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_DrMarkerWildlifeSafariCheetahGibbonMonkey-2-1-320x213.jpg": {
+		"ft": 16384,
+		"iS": 16588,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_DrMarkerWildlifeSafariCheetahGibbonMonkey-2-1-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_DrMarkerWildlifeSafariCheetahGibbonMonkey-2-1.jpg": {
+		"ft": 16384,
+		"iS": 328707,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_DrMarkerWildlifeSafariCheetahGibbonMonkey-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_DrMarkerWildlifeSafariCheetahGibbonMonkey-2-320x213.jpg": {
 		"ft": 16384,
 		"iS": 16588,
@@ -16958,12 +17218,67 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_DrMarkerWildlifeSafariCheetahGibbonMonkey-cropped-320x213.jpg": {
+		"ft": 16384,
+		"iS": 16569,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_DrMarkerWildlifeSafariCheetahGibbonMonkey-cropped-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_DrMarkerWildlifeSafariCheetahGibbonMonkey-cropped.jpg": {
+		"ft": 16384,
+		"iS": 428079,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_DrMarkerWildlifeSafariCheetahGibbonMonkey-cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_WildlifeSafariCheetahCubBloodDrawDrMarker-320x213.jpg": {
+		"ft": 16384,
+		"iS": 16838,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_WildlifeSafariCheetahCubBloodDrawDrMarker-320x213.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_WildlifeSafariCheetahCubBloodDrawDrMarker.jpg": {
+		"ft": 16384,
+		"iS": 616885,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/PreCCF_yyyy_unknown_WildlifeSafariCheetahCubBloodDrawDrMarker.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/preview_008_SuziEszterhasPC_500x250_acf_cropped.jpg": {
 		"ft": 16384,
 		"iS": 11038,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/preview_008_SuziEszterhasPC_500x250_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/preview_centre-1_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 21696,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_centre-1_1200x800_acf_cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17041,6 +17356,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-conserving-the-worlds-fastest-cat_900x525_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-education-outreach_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 17411,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_cheetah-conservation-fund-education-outreach_1200x800_acf_cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -17134,6 +17460,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/uploads/2018/12/preview_dr-laurie-marker-cheetah-conservation-fund-founder_1500x500_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 9234,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_dr-laurie-marker-cheetah-conservation-fund-founder_1500x500_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/preview_dr-laurie-marker-with-cheetah-vintage-1500x1000_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 26069,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_dr-laurie-marker-with-cheetah-vintage-1500x1000_1200x800_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/uploads/2018/12/preview_dr-laurie-marker-with-cheetah-vintage_1200x800_acf_cropped.jpg": {
 		"ft": 16384,
 		"iS": 25808,
@@ -17173,6 +17521,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/uploads/2018/12/preview_international-studbooks_1200x800_acf_cropped.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/uploads/2018/12/preview_laurie-and-khayam_1200x800_acf_cropped.jpg": {
+		"ft": 16384,
+		"iS": 19885,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/uploads/2018/12/preview_laurie-and-khayam_1200x800_acf_cropped.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

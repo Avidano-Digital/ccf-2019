@@ -408,7 +408,7 @@
             ?>
 
                 <div class="col-sm-6 col-lg-4">
-                    <a class=" text-body" href="<?php echo $link['url']; ?>">
+                    <a class="text-body" href="<?php echo $link['url']; ?>">
                         <img class="img-fluid" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
                         <p class="h6 bg-primary p-2"><?php echo $link['title']; ?></p>
                     </a>
@@ -492,7 +492,56 @@
     </div>
     <!-- .offset-gutter-x -->
 
-    <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block | gallery_carousel_block  | thumnail_links_block */ ?>
+    <?php elseif( get_row_layout() == 'color_callout_block' ): ?>
+
+    <?php if( have_rows('callouts') ): ?>
+
+    <div class="offset-gutter-x my-7">
+
+        <?php while ( have_rows('callouts') ) : the_row(); 
+
+        // vars
+        $background_color = get_sub_field('background_color');
+        $headline = get_sub_field('headline');   
+        $text = get_sub_field('text');   
+        $link = get_sub_field('link');
+
+        if( $background_color == 'Purple' ){
+            $class_name = 'bg-info';
+        } else {
+            $class_name = 'bg-tertiary';
+        }
+
+        ?>
+
+        <div class="row no-gutters">
+
+            <div class="col-lg-6">
+                <img src="https://placehold.it/1000x800.jpg" alt="Placeholder">
+            </div>
+            <!-- .col -->
+
+            <div class="col-lg-6 d-flex <?php echo $class_name; ?> text-white">
+                <div class="narrow align-self-center p-3">
+                    <h3 class="h4 text-primary"><?php echo $headline; ?></h3>
+                    <div class="f-sans-serif mb-2">
+                        <?php echo $text; ?>
+                    </div>
+                </div>
+            </div>
+            <!-- .col -->
+
+        </div>
+        <!-- .row -->
+
+        <?php endwhile; ?>
+
+    </div>
+    <!-- .offset-gutter-x -->
+
+    <?php endif; ?>
+
+    <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block | gallery_carousel_block  | thumnail_links_block | gallery_thumbnail_block */ ?>
 
     <?php endwhile; endif; /* article_content */ ?>
 
@@ -868,6 +917,7 @@
         <!-- .row -->
         
     </div>
+    <!-- .offset-gutter-x -->
 
     <?php endif; ?>
 
