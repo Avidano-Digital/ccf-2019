@@ -1,17 +1,13 @@
 <?php
 /*
-Plugin Name: Media File Renamer Auto
+Plugin Name: Media File Renamer Pro
 Plugin URI: https://meowapps.com
-Description: Renames automatically the files depending on Media titles and updates the links.
-Version: 4.5.0
+Description: File renamer with many options.
+Version: 4.4.2
 Author: Jordy Meow
-Author URI: https://jordymeow.com
+Author URI: https://meowapps.com
 Text Domain: media-file-renamer
 Domain Path: /languages
-
-Dual licensed under the MIT and GPL licenses:
-https://www.opensource.org/licenses/mit-license.php
-https://www.gnu.org/licenses/gpl.html
 
 Originally developed for two of my websites:
 - Jordy Meow (https://offbeatjapan.org)
@@ -32,7 +28,7 @@ require( 'helpers.php');
 if ( is_admin() || is_rest() ) {
 
 	global $mfrh_version, $mfrh_core;
-	$mfrh_version = '4.5.0';
+	$mfrh_version = '4.4.2';
 
 	// Admin
 	require( 'mfrh_admin.php');
@@ -42,6 +38,11 @@ if ( is_admin() || is_rest() ) {
 	require( 'core.php' );
 	global $mfrh_core;
 	$mfrh_core = new Meow_MFRH_Core( $mfrh_admin );
+
+	// Pro Core
+	require( 'meowapps/core.php' );
+	new MeowAppsPro_MFRH_Core( 'mfrh', __FILE__, 'media-file-renamer',
+		$mfrh_version, $mfrh_core, $mfrh_admin );
 
 	// UI
 	require( 'ui.php' );

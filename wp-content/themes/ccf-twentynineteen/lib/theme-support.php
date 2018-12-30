@@ -12,9 +12,9 @@
 
         add_theme_support( 'post-thumbnails' );
 
-        update_option( 'thumbnail_size_w', 320 );
-        update_option( 'thumbnail_size_h', 320 );
-        update_option( 'thumbnail_crop', false );
+        update_option( 'thumbnail_size_w', 300 );
+        update_option( 'thumbnail_size_h', 300 );
+        update_option( 'thumbnail_crop', true );
 
         update_option( 'medium_size_w', 0 );
         update_option( 'medium_size_h', 0 );
