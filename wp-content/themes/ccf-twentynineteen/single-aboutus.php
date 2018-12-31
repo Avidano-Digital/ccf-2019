@@ -75,7 +75,7 @@ get_header(); ?>
 
                         <?php if ( $parent_title == "Who We Are" ) : ?>
 
-                        <ul class="link-list text-white py-4 py-xl-0">
+                        <ul class="extensible-list text-white py-4 py-xl-0">
                             <li class="page_item <?php if ( is_single( 'mission-and-vision' ) ) : ?>current_page_item<?php endif; ?>">
                                 <a href="/about-us/who-we-are/mission-and-vision/">Mission and Vision</a>
                             </li>
@@ -95,7 +95,7 @@ get_header(); ?>
                         
                         <?php elseif ( $parent_title == "What We Do" ) : ?>
 
-                        <ul class="link-list text-white py-4 py-xl-0">
+                        <ul class="extensible-list text-white py-4 py-xl-0">
                             <li class="page_item <?php if ( is_single( 'research' ) ) : ?>current_page_item<?php endif; ?>">
                                 <a href="/about-us/what-we-do/research/">Research</a>
                             </li>
@@ -112,7 +112,7 @@ get_header(); ?>
 
                         <?php elseif ( $parent_title == "Learn" ) : ?>
 
-                        <ul class="link-list text-white py-4 py-xl-0">
+                        <ul class="extensible-list text-white py-4 py-xl-0">
                             <li class="page_item <?php if ( is_single( 'resource-library' ) ) : ?>current_page_item<?php endif; ?>">
                                 <a href="/about-us/learn/resource-library/">Resource Library</a>
                             </li>
@@ -135,7 +135,7 @@ get_header(); ?>
 
                         <?php else : ?>
 
-                        <ul class="link-list text-white py-4 py-xl-0 d-none">
+                        <ul class="extensible-list text-white py-4 py-xl-0 d-none">
                             <?php echo $siblings; ?>
                         </ul>
 

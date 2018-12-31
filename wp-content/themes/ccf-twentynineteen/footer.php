@@ -51,7 +51,7 @@
 
                 <div class="col-sm-10 col-lg-4 col-xl-2 mb-3 mb-xl-0 mx-auto">
 
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li>
                             <span class="font-weight-bold mb-2">What We Do</span>
                         </li>
@@ -74,7 +74,7 @@
 
                 <div class="col-sm-10 col-lg-4 col-xl-2 mb-3 mb-xl-0 mx-auto">
 
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li>
                             <span class="font-weight-bold mb-2">Who We Are</span>
                         </li>
@@ -100,7 +100,7 @@
 
                 <div class="col-sm-10 col-lg-4 col-xl-2 mb-3 mb-xl-0 mx-auto">
 
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li>
                             <span class="font-weight-bold mb-2">Get Involved</span>
                         </li>
@@ -129,7 +129,7 @@
 
                 <div class="col-sm-10 col-lg-4 col-xl-2 mb-3 mb-xl-0 mx-auto">
 
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li>
                             <span class="font-weight-bold mb-2">Learn</span>
                         </li>
@@ -158,7 +158,7 @@
 
                 <div class="col-sm-10 col-lg-4 col-xl-2 mb-3 mb-xl-0 mx-auto">
 
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li>
                             <span class="font-weight-bold mb-2">News</span>
                         </li>
@@ -178,7 +178,7 @@
 
                 <div class="col-sm-10 col-lg-4 col-xl-2 mb-3 mb-xl-0 mx-auto">
 
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li>
                             <a href="#" title="For Kids">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/ccf-kids-logo.svg" alt="Placeholder">
@@ -228,7 +228,7 @@
                     <h5>Keep Up With the Cheetahs</h5>
                     <p class="fs-md">Never miss an update.</p>
 
-                    <ul class="link-list horizontal fs-lg">
+                    <ul class="extensible-list horizontal fs-lg">
                         <li>
                             <a class="text-body" href="#">
                                 <span class="fab fa-facebook-f"></span>
@@ -258,7 +258,7 @@
 
                     <h6>CCF Newsletters</h6>
 
-                    <ul class="link-list horizontal fs-lg">
+                    <ul class="extensible-list horizontal fs-lg">
                         <li>
                             <a class="no-btn-style text-body" href="#">
                                 <span class="far fa-envelope-open"></span>
@@ -274,7 +274,7 @@
                     <h5>Support CCF</h5>
                     <p class="fs-md">You can help save the cheetah from exinction!</p>
 
-                    <ul class="link-list horizontal">
+                    <ul class="extensible-list horizontal">
                         <li>
 
                             <a class="btn btn-sm btn-block btn-primary" href="#" title="Donate">Donate</a>

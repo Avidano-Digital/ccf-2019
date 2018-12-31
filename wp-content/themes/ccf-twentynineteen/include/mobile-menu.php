@@ -31,7 +31,7 @@
             <div class="collapse" id="panel-about-us" role="tabpanel" aria-labelledby="acc-button-about-us" data-parent="#mobile-menu-accordion">
 
                 <div class="card-body bg-dark">
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li class="leader">What We Do</li>
                         <li><a href="/about-us/what-we-do/research/">Research</a></li>
                         <li><a href="/about-us/what-we-do/education/">Education</a></li>
@@ -39,7 +39,7 @@
                         <li><a href="/about-us/what-we-do/international-cheetah-day/">International Cheetah Day</a></li>
                     </ul>
 
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li class="leader">Who We Are</li>
                         <li><a href="/about-us/who-we-are/mission-and-vision/">Mission and Vision</a></li>
                         <li><a href="/about-us/who-we-are/dr-laurie-marker/">Dr. Laurie Marker</a></li>
@@ -65,7 +65,7 @@
             <div class="collapse" id="panel-get-involved" role="tabpanel" aria-labelledby="acc-button-get-involved" data-parent="#mobile-menu-accordion">
 
                 <div class="card-body bg-dark">
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li><a href="#">Ways to Give</a></li>
                         <li><a href="#">Volunteer Locally</a></li>
                         <li><a href="#">Volunteer in Namibia</a></li>
@@ -90,7 +90,7 @@
             <div class="collapse" id="panel-learn" role="tabpanel" aria-labelledby="acc-button-learn" data-parent="#mobile-menu-accordion">
 
                 <div class="card-body bg-dark">
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li><a href="#">Ways to Give</a></li>
                         <li><a href="#">Volunteer Locally</a></li>
                         <li><a href="#">Volunteer in Namibia</a></li>
@@ -115,7 +115,7 @@
             <div class="collapse" id="panel-news" role="tabpanel" aria-labelledby="acc-button-news" data-parent="#mobile-menu-accordion">
 
                 <div class="card-body bg-dark">
-                    <ul class="link-list">
+                    <ul class="extensible-list">
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Press Releases</a></li>
                         <li><a href="#">Press Kit</a></li>

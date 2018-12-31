@@ -60,18 +60,18 @@ p{ @extend .f-serif; }
 
 #primary-navigation-desktop{
 
-  ul{ @extend .link-list; }
+  ul{ @extend .extensible-list; }
 
   > ul{ 
     @extend .horizontal;
-    margin-left: -($link-list-margin * 1.25);
-    margin-right: -($link-list-margin * 1.25);
+    margin-left: -($extensible-list-margin * 1.25);
+    margin-right: -($extensible-list-margin * 1.25);
   }
 
   > ul > li{ 
     @extend .position-relative; 
-    margin-left: ($link-list-margin * 1.25);
-    margin-right: ($link-list-margin * 1.25);
+    margin-left: ($extensible-list-margin * 1.25);
+    margin-right: ($extensible-list-margin * 1.25);
   }
 
   > ul > li > a{
@@ -90,7 +90,7 @@ p{ @extend .f-serif; }
     @extend .px-2;
     @extend .py-3;
     @extend .fs-md;
-    @extend .link-list;
+    @extend .extensible-list;
 
     top: 100%;
     left: -($spacer-3);
@@ -186,12 +186,12 @@ form[role="search"]{
 
 #all-links{
 
-  // ul{ @extend .link-list; }
+  // ul{ @extend .extensible-list; }
 
   li > a { @extend .text-body; }
 }
 
-// // Link-list colors
+// // extensible-list colors
 
 #aside-nav{
 

@@ -44,7 +44,7 @@ get_header(); ?>
                     <?php endif; endforeach; ?> 
                 
                     <h1 class="display-3"><?php the_title(); ?></h1>
-                    <ul class="link-list horizontal fs-md">
+                    <ul class="extensible-list horizontal fs-md">
                         <?php $author = get_field('author'); ?>
 
                         <li class="font-weight-bold">by&nbsp;<a href="#" class="blended-link"><?php echo $author; ?></a></li>

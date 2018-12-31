@@ -64,7 +64,7 @@ $inside_news = strpos($url, 'news');
 
                         <div class="col-auto">
 
-                            <ul class="link-list horizontal no-reverse">
+                            <ul class="extensible-list horizontal no-reverse">
                                 <li>
                                     <a href="#" title="For Kids">
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/ccf-kids-logo.svg" alt="Placeholder">

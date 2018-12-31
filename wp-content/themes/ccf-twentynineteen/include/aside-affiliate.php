@@ -1,10 +1,10 @@
 <nav class="collapse d-xl-block mb-xl-5" id="aside-nav">
 
-    <ul class="link-list text-white py-4 py-xl-0">
+    <ul class="extensible-list text-white py-4 py-xl-0">
         <li>
             <h5 class="mb-2">Topics</h5> 
 
-            <ul class="link-list fs-md">
+            <ul class="extensible-list fs-md">
                 <li class="current_page_item"><a href="#" title="Illegal Pet Trade">Illegal Wildlife Trade</a></li>
                 <li><a href="#" title="CCF Namibia">CCF Namibia</a></li>
                 <li><a href="#" title="Cheetahs in the News">Cheetahs in the News</a></li>

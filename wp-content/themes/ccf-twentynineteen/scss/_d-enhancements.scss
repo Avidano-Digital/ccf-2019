@@ -33,7 +33,7 @@ html{
     .dropdown-item
     { @extend .text-right; }
 
-    .link-list:not(.justify-content-center){
+    .extensible-list:not(.justify-content-center){
       .horizontal{
         @extend .justify-content-start;
       }

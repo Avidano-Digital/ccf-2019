@@ -410,7 +410,7 @@
 
                   <div class="d-none d-md-block">
 
-                    <ul class="link-list horizontal">
+                    <ul class="extensible-list horizontal">
                       <li>
                         <a href="#" class="text-primary text-center">
                           <img class="rounded-circle mb-2" src="<?php echo get_template_directory_uri(); ?>/images/ccf-research.jpg" alt="Placeholder">
