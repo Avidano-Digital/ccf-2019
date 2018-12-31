@@ -25,25 +25,23 @@ get_header(); ?>
     <section class="banner">
 
         <div class="card bg-white">
+
             <div class="overlay-gradient-y-black">
-
+        
             <?php 
+                $featured_image_id = get_post_thumbnail_id($post->ID);
+                $featured_image = wp_get_attachment_image_src($featured_image_id,'full', false, '');
+                $featured_image_alt = get_post_meta($featured_image_id,'_wp_attachment_image_alt', true);
+             ?>
+ 	
+            <?php if( $featured_image ): ?>
+                <img class="card-img" src="<?php echo $featured_image[0]; ?>" alt="<?php echo $featured_image_alt; ?>">
+            <?php else : ?>
+                <img class="card-img" src="http://via.placeholder.com/1500x500.jpg" alt="Placeholder">
+            <?php endif; ?>
 
-            $hero = get_field('hero_image');
-
-            $image = $hero['image'];
-            $image_alt = $hero['image_alt'];
-
-            ?>
-
-            <?php if( $image ): ?>
-
-                <img class="card-img" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
-
-                <?php else : ?>
-                    <img class="card-img" src="http://via.placeholder.com/1500x500/000000/333333/.jpg" alt="Placeholder">
-                <?php endif; ?>
             </div>
+
             <div class="card-img-overlay d-flex">
                 <div class="align-self-end container-fluid">
                     <h1 class="text-right text-secondary">

@@ -22,12 +22,18 @@
 
       $primary_feature = get_field('primary_feature'); 
       $image = $primary_feature['image'];
+
+      // if( !empty($image) ){
+      //   $size = 'thumbnail';
+	    //   $thumb = $image['sizes'][ $size ];
+      // }
+
       $headline = $primary_feature['headline'];
       $text = $primary_feature['text'];
       $link = $primary_feature['link'];
       
       if( $primary_feature ): ?>
-
+      
       <div class="featured-panel responsive-lg">
 
         <div class="card bg-white">
@@ -255,7 +261,6 @@
         <?php while( have_rows('quaternary_features') ): the_row(); 
         
         $image = get_sub_field('image');
-        $image_alt = get_sub_field('image_alt');
         $headline = get_sub_field('headline');
         $link = get_sub_field('link');
 
@@ -265,9 +270,17 @@
           <div class="featured-panel responsive-md">
 
             <div class="card bg-white">
-              <div class="overlay-gradient-y-black">
-                <img class="card-img" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
-              </div>
+
+            <?php if( $image ): ?>
+                <div class="overlay-gradient-y-black">
+                  <img class="card-img" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+                </div>
+              <?php else : ?>
+                <div class="overlay-gradient-y-black">
+                  <img class="card-img" src="https://via.placeholder.com/600x300" alt="Placeholder">
+                </div>
+              <?php endif; ?>
+
               <div class="card-img-overlay d-flex">
                 <div class="align-self-end">
                   <div class="text-white">

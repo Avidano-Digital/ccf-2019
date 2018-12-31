@@ -12,8 +12,8 @@
 
         add_theme_support( 'post-thumbnails' );
 
-        update_option( 'thumbnail_size_w', 300 );
-        update_option( 'thumbnail_size_h', 300 );
+        update_option( 'thumbnail_size_w', 250 );
+        update_option( 'thumbnail_size_h', 250 );
         update_option( 'thumbnail_crop', true );
 
         update_option( 'medium_size_w', 0 );
@@ -25,14 +25,6 @@
         update_option( 'large_size_w', 0 );
         update_option( 'large_size_h', 0 );
         
-        // Custom JPG Compression
-
-        function my_prefix_regenerate_thumbnail_quality() {
-            return 80;
-        }
-         
-        add_filter( 'jpeg_quality', 'my_prefix_regenerate_thumbnail_quality');
-
         // Custom Archive Titles
 
         add_filter( 'get_the_archive_title', function ($title) {
