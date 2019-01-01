@@ -541,6 +541,31 @@
 
     <?php endif; ?>
 
+    <?php elseif( get_row_layout() == 'horizontal_button_block' ): ?>
+
+    <?php if( have_rows('buttons') ): ?>
+
+    <div class="narrow my-5">
+
+        <ul class="extensible-list horizontal justify-content-center">
+
+            <?php while ( have_rows('buttons') ) : the_row();
+
+            // vars
+            $link = get_sub_field('link');
+
+            ?>
+                <li><a class="btn btn-primary btn-lg" href="<?php echo $link['url'] ?>"><?php echo $link['title'] ?></a></li>
+            
+            <?php endwhile; ?>
+        
+        </ul>
+
+    </div>
+    <!-- .narrow -->
+
+    <?php endif; ?>
+
     <?php endif; /* text_block | video_block | banner_block | figure_block | two_figure_block | gallery_carousel_block  | thumnail_links_block | gallery_thumbnail_block */ ?>
 
     <?php endwhile; endif; /* article_content */ ?>
@@ -936,7 +961,15 @@
     </div>
     <!-- .narrow -->
 
-    ul.
+    <div class="narrow my-5">
+
+        <ul class="extensible-list horizontal justify-content-center">
+            <li><a class="btn btn-primary btn-lg" href="#1">Button Link</a></li>
+            <li><a class="btn btn-primary btn-lg" href="#1">Button Link</a></li>
+        </ul>
+
+    </div>
+    <!-- .narrow -->
 
     <?php endif; ?>
 

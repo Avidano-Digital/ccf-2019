@@ -528,3 +528,19 @@ figure.right{
 
 
 }
+
+#news-menu{
+  a{
+    @extend .text-white;
+    @extend .font-weight-bold;
+
+    @include hover-focus {
+      text-decoration: none;
+    }
+
+    &.active{
+      @extend .text-primary;
+      @include custom-underline;
+    }
+  }
+}
