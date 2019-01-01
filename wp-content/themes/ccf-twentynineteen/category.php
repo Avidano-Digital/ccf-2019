@@ -11,7 +11,7 @@ get_header(); ?>
     <section>
 
         <div class="card bg-dark">
-            <img class="card-img opacity-20" src="<?php echo get_template_directory_uri(); ?>/images/hero/ccf-blog.jpg" alt="Card image">
+            <img class="card-img opacity-30" src="<?php echo get_template_directory_uri(); ?>/images/hero/ccf-blog.jpg" alt="Card image">
             <div class="card-img-overlay d-flex">
                 <div class="align-self-center container-fluid text-center py-2">
                     <h1 class="display-1 text-white">

@@ -531,7 +531,7 @@ figure.right{
 
 #news-menu{
   a{
-    @extend .text-white;
+      @extend .text-primary;
     @extend .font-weight-bold;
 
     @include hover-focus {
@@ -539,8 +539,8 @@ figure.right{
     }
 
     &.active{
-      @extend .text-primary;
-      @include custom-underline;
+    @extend .text-white;
+      // @include custom-underline;
     }
   }
 }
