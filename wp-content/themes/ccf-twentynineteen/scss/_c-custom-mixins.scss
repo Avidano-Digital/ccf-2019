@@ -123,6 +123,7 @@ $image_url: '/wp-content/themes/ccf-twentynineteen/images/';
     background-repeat: repeat;
   } @else{
     background-repeat: no-repeat;
+    background-size: cover;
   }
   
 }

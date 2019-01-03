@@ -15511,6 +15511,17 @@
 		"oAP": "/wp-content/themes/ccf-twentynineteen/header.php",
 		"oF": 0
 		},
+	"/wp-content/themes/ccf-twentynineteen/images/ccf-blog.jpg": {
+		"ft": 16384,
+		"iS": 184969,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/ccf-twentynineteen/images/ccf-blog.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/wp-content/themes/ccf-twentynineteen/images/ccf-conservation.jpg": {
 		"ft": 16384,
 		"iS": 6365,
@@ -15612,17 +15623,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/ccf-twentynineteen/images/experimental/01.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/wp-content/themes/ccf-twentynineteen/images/hero/ccf-blog.jpg": {
-		"ft": 16384,
-		"iS": 184969,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/wp-content/themes/ccf-twentynineteen/images/hero/ccf-blog.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,

@@ -191,6 +191,13 @@ $featured-panel: true;
     .bg-white{
       h1, h2, h3, h4, p, a.link{ @extend .text-shadow;  }
     }
+
+
+
+
+
+
+
     
     @each $breakpoint in map-keys($grid-breakpoints) {
       $next: breakpoint-next($breakpoint, $grid-breakpoints);
@@ -204,6 +211,7 @@ $featured-panel: true;
         }
       }
     }
+
   }
 
   .featured-block{

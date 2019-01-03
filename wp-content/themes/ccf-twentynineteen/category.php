@@ -8,16 +8,18 @@ get_header(); ?>
 
 <main id="content">
 
-    <section>
 
-        <div class="card bg-dark">
-            <img class="card-img opacity-30" src="<?php echo get_template_directory_uri(); ?>/images/hero/ccf-blog.jpg" alt="Card image">
-            <div class="card-img-overlay d-flex">
-                <div class="align-self-center container-fluid text-center py-2">
-                    <h1 class="display-1 text-white">
+    <section class="bg-dark bg-cover bridge" id="news-intro">
+
+        <div class="container py-7">
+
+
+
+                <div class="wide text-center mb-5">
+                    <h1 class="display-3 text-white">
                         News
                     </h1>
-                    <ul class="extensible-list horizontal justify-content-center" id="news-menu">
+                    <ul class="extensible-list horizontal justify-content-center responsive-md" id="news-menu">
                         <li>
                             <a class="active"href="#1">CCF Blog</a>
                         </li>
@@ -30,11 +32,26 @@ get_header(); ?>
                     </ul>
                 </div>
                 <!-- .align-self-center -->
-            </div>
+
+
+
         </div>
+        <!-- .py-7 -->
+
+
+
 
     </section>
-    <!-- .banner -->
+
+
+
+
+
+
+
+
+
+
 
     <div class="container-fluid bg-light py-3">
 
@@ -80,6 +97,14 @@ get_header(); ?>
     <!-- .container-fluid -->
 
     <div class="container-fluid py-7">
+
+        <div class="wide px-lg-2 mb-5">
+
+
+
+
+
+        </div>
 
         <div class="wide px-lg-2">
             <?php get_template_part('template-parts/featured-news'); ?>

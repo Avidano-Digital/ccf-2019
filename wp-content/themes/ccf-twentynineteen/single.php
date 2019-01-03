@@ -6,11 +6,89 @@ Template Name: News
 
 get_header(); ?>
 
+
 <main id="content">
 
     <?php if (have_posts()) : while ( have_posts() ) : the_post(); ?>
 
-    <article class="container-fluid blog">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <article class="container-fluid blog py-8" id="primary-content">
+
+        <header class="narrow mb-5">
+
+            <?php $postcat = get_the_category( $post->ID ); ?>
+            <?php foreach ($postcat as $cat): if ($cat->parent != 0 ): ?>
+
+            <p class="mb-0"><a class="no-link-style text-body" href="#"><em><?php echo $cat->name ?></em></a></p>
+
+            <?php endif; endforeach; ?> 
+
+            <h1 class="display-3"><?php the_title(); ?></h1>
+            <ul class="extensible-list horizontal fs-md">
+                <?php $author = get_field('author'); ?>
+
+                <li class="font-weight-bold">by&nbsp;<a href="#" class="blended-link"><?php echo $author; ?></a></li>
+                
+                <li><?php the_date(); ?></li>
+            </ul>
+            <p class="f-sans-serif "> </p>
+
+        </header>
+
+        <?php $featured_image = get_field('featured_image');	
+        
+        if( $featured_image ): ?>
+
+        <div class="medium mb-5">
+
+            <figure class="figure my-0">
+                <img class="figure-img" src="<?php echo $featured_image['image']; ?>" alt="<?php the_title(); ?>" />
+                <?php if( $featured_image['caption'] ): ?>
+                    <figcaption class="figure-caption"><?php echo $featured_image['caption'] ?></figcaption>
+                <?php endif; ?>
+            </figure>
+
+        </div>
+        <!-- .narrow -->
+
+        <?php endif; /* featured_image */ ?>
+
+
+        <?php get_template_part('template-parts/flexible-content-post'); ?>
+
+        <?php get_template_part('template-parts/article-footer'); ?>
+
+    </article>
+    <!-- #primary-content -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <article class="container-fluid d-none">
 
         <div class="row">
 
