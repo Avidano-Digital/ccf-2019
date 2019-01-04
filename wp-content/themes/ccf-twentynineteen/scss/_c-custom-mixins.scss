@@ -93,12 +93,12 @@ $image_url: '/wp-content/themes/ccf-twentynineteen/images/';
 
 @mixin apply-background-image(
 
-    $image:'01', 
-    $extension:'.svg', 
-    $repeat:true, 
-    $retina:false, 
-    $width:null, 
-    $height:null
+    $image: '01', 
+    $extension: '.svg', 
+    $repeat: true, 
+    $cover: false, 
+    $width: null, 
+    $height: null
   
   ){
     
@@ -109,21 +109,19 @@ $image_url: '/wp-content/themes/ccf-twentynineteen/images/';
     background-image: url($image_url + $image + $extension);
   }
 
-  @if $retina{
-    @media (min--moz-device-pixel-ratio: 1.3),
-           (-o-min-device-pixel-ratio: 2.6/2),
-           (-webkit-min-device-pixel-ratio: 1.3),
-           (min-device-pixel-ratio: 1.3),
-           (min-resolution: 1.3dppx) {
-      background-image: url($image_url + $image + '-2x' + $extension);
-      background-size: $width $height;  }
-  }
-
   @if $repeat{
     background-repeat: repeat;
   } @else{
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  @if $cover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  } @else{
+    background-repeat: repeat;
   }
   
 }

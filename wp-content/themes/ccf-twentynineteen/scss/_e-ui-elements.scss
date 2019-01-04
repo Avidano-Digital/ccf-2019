@@ -168,6 +168,11 @@ $featured-panel: true;
 
 @if($featured-panel){
 
+  // Fixed height parameters
+  
+  $bg-fixed-image-opacity: 0.3;
+  $bg-fixed-height: 400px;
+
   .featured-block, 
   .featured-panel, 
   .banner
@@ -192,7 +197,47 @@ $featured-panel: true;
       h1, h2, h3, h4, p, a.link{ @extend .text-shadow;  }
     }
 
+    &.bg-cover{
 
+      @extend .position-relative;
+      @extend .d-flex;
+
+      height: $bg-fixed-height;
+
+      > div{
+        @extend .position-relative;
+        @extend .z-index-100;
+        @extend .align-self-center;
+      }
+
+      &::before{
+        content: "\00a0";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left:0;
+        right: 0;
+        z-index: auto;
+
+        @include opacity($bg-fixed-image-opacity);
+        @include apply-background-image;
+
+      }
+
+      // Add your own backround classes and append them to '.bg-fixed'
+
+      &.cheetahs{
+        &::before{
+          @include apply-background-image(
+            $image: 'ccf-blog', 
+            $extension: '.jpg', 
+            $repeat: false,  
+            $cover: true, 
+            );
+        }
+      }
+
+    }
 
 
 

@@ -9,7 +9,7 @@ get_header(); ?>
 <main id="content">
 
 
-    <section class="bg-dark bg-cover bridge" id="news-intro">
+    <section class="featured-panel bg-dark bg-cover cheetahs" id="news-intro">
 
         <div class="container py-7">
 
