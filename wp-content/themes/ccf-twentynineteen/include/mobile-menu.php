@@ -2,12 +2,12 @@
 
     <div class="row matrix-gutter">
 
-        <div class="col-xs">
+        <div class="col-sm">
             <?php echo do_shortcode('[gtranslate]'); ?>
         </div>
         <!-- .col -->
 
-        <div class="col-xs">            
+        <div class="col-sm">            
             <?php get_template_part('template-parts/site-search'); ?>
         </div>
         <!-- .col -->
