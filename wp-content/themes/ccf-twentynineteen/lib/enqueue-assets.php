@@ -44,7 +44,7 @@
 
         wp_enqueue_script( 
             'popper', 
-            'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', 
+            'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js', 
             ['jquery'],
             '1.14.3', 
             true 
@@ -52,9 +52,9 @@
 
         wp_enqueue_script( 
             'bootstrap-js', 
-            'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js',
+            'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js',
             ['jquery'],
-            '4.1.3', 
+            '4.2.1', 
             true 
         );
 
