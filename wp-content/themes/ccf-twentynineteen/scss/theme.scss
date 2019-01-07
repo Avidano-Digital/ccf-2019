@@ -531,16 +531,15 @@ figure.right{
 
 #news-menu{
   a{
-      @extend .text-primary;
-    @extend .font-weight-bold;
+    @extend .text-white;
 
     @include hover-focus {
       text-decoration: none;
     }
 
     &.active{
-    @extend .text-white;
-      // @include custom-underline;
+    @extend .text-primary;
+      @extend .font-weight-bold;
     }
   }
 }

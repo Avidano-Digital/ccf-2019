@@ -9,20 +9,21 @@ get_header(); ?>
 
 <main id="content">
 
+    <div class="container-fluid bg-dark py-3">
+
+        <div class="narrow">
+    <ul class="extensible-list horizontal fs-md text-white">
+        <li>News</li>
+        <li> <i class="fas fa-caret-right"></i></li>
+        <li>CCF Blog</i></li>
+    </ul>
+
+        </div>
+
+    
+    </div>
+
     <?php if (have_posts()) : while ( have_posts() ) : the_post(); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <article class="container-fluid blog py-8" id="primary-content">
 
